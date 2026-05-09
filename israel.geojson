@@ -1,0 +1,707 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-05-09T10:07:26Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/136164",
+        "addr:city": "Jerusalem",
+        "addr:postcode": "9114001",
+        "alt_name:ar": "برج القلعة",
+        "alt_name:br": "Tour Dewi",
+        "alt_name:cs": "Jeruzalémská citadela",
+        "alt_name:en": "Jerusalem Citadel",
+        "alt_name:es": "Ciudadela de Jerusalén",
+        "building": "yes",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "image": "https://photos.app.goo.gl/pmFNe3WYxnw4LrBN6",
+        "mapillary": "150859583578302",
+        "name": "מגדל דוד",
+        "name:ar": "برج داود",
+        "name:br": "Tour David",
+        "name:cs": "Davidova věž",
+        "name:de": "Davidszitadelle",
+        "name:en": "Tower of David",
+        "name:es": "Torre de David",
+        "name:fa": "برج داوود",
+        "name:fi": "Daavidin torni",
+        "name:he": "מגדל דוד",
+        "name:hi": "दाऊद का मीनार",
+        "name:hu": "Dávid tornya",
+        "name:hy": "Դավթի աշտարակ",
+        "name:it": "Cittadella di Davide",
+        "name:ja": "ダビデの塔",
+        "name:ml": "ദാവീദിന്റെ ഗോപുരം",
+        "name:ro": "Turnul lui David",
+        "name:ru": "Башня Давида",
+        "name:tr": "Davut Kulesi",
+        "name:zh": "大卫塔",
+        "opening_hours": "09:00-16:00; Fr 09:00-14:00",
+        "ruins": "yes",
+        "type": "multipolygon",
+        "website": "https://tod.org.il/",
+        "wikidata": "Q1177765",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2280812,
+          31.7760703
+        ]
+      },
+      "id": "relation/136164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11205783",
+        "building": "yes",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "name": "מצודת עכו",
+        "name:de": "Die Zitadelle von Akko",
+        "name:en": "Citadel of Acre",
+        "name:he": "מצודת עכו",
+        "type": "multipolygon",
+        "wheelchair": "limited",
+        "wikipedia": "de:Zitadelle (Akkon)",
+        "wikipedia:de": "Zitadelle (Akkon)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0695225,
+          32.9234218
+        ]
+      },
+      "id": "relation/11205783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/20216954",
+        "addr:city": "Jerusalem",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "greek_orthodox",
+        "historic": "castle",
+        "name": "Monastery of the Cross",
+        "name:ar": "دير الصليب",
+        "name:de": "Kreuzkloster",
+        "name:el": "Ιερά Μονή του Τιμίου Σταυρού στὰ Ἱεροσόλυμα",
+        "name:en": "Monastery of the Cross",
+        "name:he": "מנזר המצלבה",
+        "name:pl": "Klasztor Świętego Krzyża",
+        "name:ro": "Mănăstirea Ortodoxă Greacă a „Sfintei Cruci” din Ierusalim",
+        "name:ru": "Монастырь Святого Креста",
+        "religion": "christian",
+        "wikidata": "Q1787112",
+        "wikipedia": "en:Monastery of the Cross",
+        "wikipedia:en": "Monastery of the Cross",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2082494,
+          31.772019
+        ]
+      },
+      "id": "way/20216954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29990335",
+        "alt_name": "מבצר מונפורט",
+        "building": "yes",
+        "castle_type": "defensive",
+        "castle_type:de": "burgruine",
+        "description": "שרידי מבצר צלבני על ראש הגבעה. שווה את העליה אם אתם מטיילים בנחל כזיב.",
+        "description:he": "שרידי מבצר צלבני על ראש הגבעה. שווה את העליה אם אתם מטיילים בנחל כזיב.",
+        "gns_ref": "-780771",
+        "historic": "ruins",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Israel_Hiking_Map_%D7%9E%D7%91%D7%A6%D7%A8_%D7%9E%D7%95%D7%A0%D7%A4%D7%95%D7%A8%D7%98.jpeg",
+        "image1": "https://upload.wikimedia.org/wikipedia/commons/4/4b/%D7%9E%D7%91%D7%A6%D7%A8_%D7%9E%D7%95%D7%A0%D7%A4%D7%95%D7%A8%D7%98_%D7%91%D7%96%D7%A8%D7%99%D7%97%D7%94.JPG",
+        "image2": "https://upload.wikimedia.org/wikipedia/commons/d/db/Israel_Hiking_Map_מבצר_מונפורט_1.jpeg",
+        "image3": "https://upload.wikimedia.org/wikipedia/commons/f/fd/IHM_מבצר_מונפורט.jpeg",
+        "image4": "https://upload.wikimedia.org/wikipedia/commons/6/67/IHM_מבצר_מונפורט_1.jpeg",
+        "image5": "https://upload.wikimedia.org/wikipedia/commons/8/89/IHM_מבצר_מונפורט_2.jpeg",
+        "image6": "https://upload.wikimedia.org/wikipedia/commons/9/9d/IHM_מבצר_מונפורט_3.jpeg",
+        "image7": "https://upload.wikimedia.org/wikipedia/commons/2/2f/IHM_מבצר_מונפור.jpeg",
+        "name": "מבצר מונפור",
+        "name:en": "Monfort Castle",
+        "name:en1": "Monfor",
+        "name:en2": "Qalaat el Qourein",
+        "name:en3": "Starkenburg",
+        "name:fr": "Montfort",
+        "name:he": "מבצר מונפור",
+        "ruins": "castle",
+        "source": "GEOnet Names Server (gns)",
+        "wikidata": "Q14201945",
+        "wikipedia": "he:מונפור (מבצר)",
+        "wikipedia:he": "מונפור (מבצר)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2264939,
+          33.0444174
+        ]
+      },
+      "id": "way/29990335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/139108546",
+        "historic": "castle",
+        "name": "מצודת האמיר",
+        "name:he": "מצודת האמיר",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7344402,
+          33.1397028
+        ]
+      },
+      "id": "way/139108546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/165391691",
+        "historic": "castle",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Israel_Hiking_Map_%D7%9E%D7%91%D7%A6%D7%A8_%D7%A0%D7%99%D7%9E%D7%A8%D7%95%D7%93.jpeg",
+        "name": "מבצר נמרוד",
+        "name:ar": "متنزه قومي قلعة الصبيبة",
+        "name:de": "Nimrod",
+        "name:en": "Nimrod Fortress National Park",
+        "name:he": "מבצר נמרוד",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7150477,
+          33.2526724
+        ]
+      },
+      "id": "way/165391691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/238402362",
+        "historic": "ruins",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/IHM_מצודת_אשדוד-ים_1.jpeg",
+        "image1": "https://upload.wikimedia.org/wikipedia/commons/1/17/IHM_מצודת_אשדוד-ים_2.jpeg",
+        "image2": "https://upload.wikimedia.org/wikipedia/commons/4/42/IHM_מצודת_אשדוד-ים_3.jpeg",
+        "name": "מצודת אשדוד-ים",
+        "name:en": "Ashdod-Yam Citadel",
+        "name:he": "מצודת אשדוד-ים",
+        "ruins": "castle",
+        "website": "https://www.tiuli.com/points-of-interest/677/%D7%A4%D7%90%D7%A8%D7%A7-%D7%90%D7%A7%D7%95%D7%9C%D7%95%D7%92%D7%99-%D7%9E%D7%A6%D7%95%D7%93%D7%AA-%D7%99%D7%9D-%D7%90%D7%A9%D7%93%D7%95%D7%93",
+        "wikidata": "Q123852542",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.6216563,
+          31.7804359
+        ]
+      },
+      "id": "way/238402362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/265620422",
+        "gns_ref": "-780693",
+        "historic": "ruins",
+        "name": "מצד בוקק",
+        "name:en": "Mezad Bokek",
+        "name:en1": "Bokek Fort",
+        "name:en2": "Metsad Boqeq",
+        "name:en3": "Qasr Umm Baghaq",
+        "name:he": "מצד בוקק",
+        "ruins": "castle",
+        "source": "GEOnet Names Server (gns)",
+        "wikidata": "Q16133224",
+        "wikipedia": "he:מצד בוקק",
+        "wikipedia:he": "מצד בוקק",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3587738,
+          31.2011806
+        ]
+      },
+      "id": "way/265620422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/278476982",
+        "access": "yes",
+        "description": "שרידי מבצר מהתקופה הצלבנית",
+        "description:he": "שרידי מצודה",
+        "gns_ref": "-781124",
+        "historic": "ruins",
+        "historic:civilization": "byzantine",
+        "name": "Qula",
+        "name:ar": "قولة‎",
+        "name:en": "Qula",
+        "name:he": "קולה",
+        "ruins": "castle",
+        "wikidata": "Q1107567",
+        "wikipedia": "he:קולה (יישוב)",
+        "wikipedia:en": "Qula"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9548587,
+          32.0377763
+        ]
+      },
+      "id": "node/278476982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/360595500",
+        "attraction": "historic",
+        "building": "yes",
+        "historic": "castle",
+        "name": "מצודת ביריה",
+        "name:en": "Biria Fortress",
+        "name:he": "מצודת ביריה",
+        "owner": "KKL",
+        "tourism": "attraction",
+        "wikidata": "Q2903198",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5080879,
+          32.9904001
+        ]
+      },
+      "id": "way/360595500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/669540258",
+        "alt_name:de": "Burg an der Jakobsfurt",
+        "height": "75",
+        "historic": "ruins",
+        "int_name": "Metzad Ateret",
+        "name": "מצד עתרת",
+        "name:de": "Chastellet",
+        "name:en": "Jacob's Ford",
+        "name:fr": "Chastelet",
+        "name:he": "מצד עתרת",
+        "name:la": "Vadum Jacob",
+        "name:pt": "Chastelet du Gué-Jacob",
+        "ruins": "castle",
+        "start_date": "1178",
+        "wikidata": "Q1068128",
+        "wikipedia": "he:מצד עתרת",
+        "wikipedia:he": "מצד עתרת",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.627746,
+          33.0046403
+        ]
+      },
+      "id": "way/669540258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/751256375",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "הארמון הצפוני",
+        "name:de": "Nordpalast",
+        "name:en": "Northern Palace",
+        "name:he": "הארמון הצפוני",
+        "ref": "6",
+        "ruins": "yes",
+        "wikimedia_commons": "Category:Masada Northern Palace",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3543116,
+          31.318383
+        ]
+      },
+      "id": "way/751256375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/944203508",
+        "building": "yes",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "מבצר יחיעם",
+        "name:ar": "خربة جدّين",
+        "name:en": "Yehi'am Fortress",
+        "name:he": "מבצר יחיעם",
+        "wikidata": "Q2916570",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2219801,
+          32.9943397
+        ]
+      },
+      "id": "way/944203508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1174936053",
+        "historic": "ruins",
+        "historic:civilization": "medieval",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/IHM_מצד_צלבני.jpeg",
+        "name": "מבצר צלבני - קסטלום אמואס",
+        "name:en": "Crusaders' Castle - Castellum Emmaus",
+        "name:he": "מבצר צלבני",
+        "name:ro": "Ruinele avanpostului cruciaților",
+        "ruins": "castle",
+        "website": "מבצר לטרון – ויקיפדיה https://share.google/pCRniHakcslxHcoW6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.982375,
+          31.831146
+        ]
+      },
+      "id": "node/1174936053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1611456731",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2275985,
+          31.8239563
+        ]
+      },
+      "id": "node/1611456731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4422257855",
+        "historic": "castle",
+        "name": "מבצר רמות נפתלי",
+        "name:en": "Ramot Naftaly Fortress",
+        "name:he": "מבצר רמות נפתלי"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5505293,
+          33.0957974
+        ]
+      },
+      "id": "node/4422257855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4825765125",
+        "historic": "castle",
+        "ruins": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.039346,
+          31.707864
+        ]
+      },
+      "id": "node/4825765125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6202998686",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4724382,
+          32.9726099
+        ]
+      },
+      "id": "node/6202998686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6203016086",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4707987,
+          32.973056
+        ]
+      },
+      "id": "node/6203016086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6874312986",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5003695,
+          32.5014325
+        ]
+      },
+      "id": "node/6874312986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9705284415",
+        "access": "yes",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "חרבת בטן אל-ערש",
+        "name:en": "Beten El Arash ruins",
+        "name:he": "חרבת בטן אל-ערש"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0932563,
+          31.8203398
+        ]
+      },
+      "id": "node/9705284415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9758748217",
+        "historic": "castle",
+        "name": "מבצר מרלה",
+        "name:en": "Merle’ Castle",
+        "name:he": "מבצר מרלה",
+        "wikidata": "Q1312767"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9159177,
+          32.6164054
+        ]
+      },
+      "id": "node/9758748217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10175844317",
+        "description": "מבנה הרוס ובו בור אגירת מים מטויח",
+        "description:he": "מבנה הרוס ובו בור אגירת מים מטויח",
+        "historic": "ruins",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/IHM_בור_אגירת_מים_מטויח.jpeg",
+        "ruins": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1719971,
+          31.7750263
+        ]
+      },
+      "id": "node/10175844317"
+    },
+    {
+      "type": "Feature",
+      "id": "wiki/apollonia-arsuf",
+      "properties": {
+        "name": "אפולוניה-ארסוף",
+        "name:en": "Apollonia–Arsuf",
+        "historic": "castle",
+        "castle_type": "defensive",
+        "ruins": "yes",
+        "access": "yes",
+        "wikipedia": "en:Apollonia–Arsuf",
+        "wikidata": "Q1024886",
+        "description": "Crusader fortress on the Mediterranean coast, now Apollonia National Park in Herzliya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8068,
+          32.1952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wiki/belvoir-castle",
+      "properties": {
+        "name": "כוכב הירדן",
+        "name:en": "Belvoir Castle",
+        "historic": "castle",
+        "castle_type": "defensive",
+        "ruins": "yes",
+        "access": "yes",
+        "wikipedia": "en:Belvoir_Castle_(Israel)",
+        "wikidata": "Q1010980",
+        "description": "Best-preserved Crusader castle in Israel, built 1168 by Knights Hospitaller"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5214,
+          32.5956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wiki/cafarlet",
+      "properties": {
+        "name": "קפרלת",
+        "name:en": "Cafarlet",
+        "historic": "castle",
+        "castle_type": "defensive",
+        "ruins": "yes",
+        "wikipedia": "en:Cafarlet",
+        "description": "8th-9th century Early Muslim coastal fortress reused by Crusaders, in Moshav HaBonim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9341,
+          32.6358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wiki/chateau-pelerin",
+      "properties": {
+        "name": "מבצר פלגרין",
+        "name:en": "Château Pèlerin",
+        "historic": "castle",
+        "castle_type": "defensive",
+        "ruins": "yes",
+        "access": "no",
+        "wikipedia": "en:Château_Pèlerin",
+        "wikidata": "Q577018",
+        "description": "Major Crusader fortress built 1218 by Knights Templar, now part of Israeli Navy base at Atlit — closed to public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9339,
+          32.7053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wiki/migdal-afek",
+      "properties": {
+        "name": "מגדל אפק",
+        "name:en": "Migdal Afek (Mirabel)",
+        "historic": "castle",
+        "castle_type": "defensive",
+        "ruins": "yes",
+        "access": "yes",
+        "wikipedia": "en:Migdal_Afek",
+        "description": "National park containing ruins of Crusader castle Mirabel, on southeastern edge of Rosh HaAyin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9542,
+          32.0752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wiki/qaqun-caco",
+      "properties": {
+        "name": "קאקון",
+        "name:en": "Qaqun (Caco Castle)",
+        "historic": "castle",
+        "castle_type": "defensive",
+        "ruins": "yes",
+        "wikipedia": "en:Qaqun",
+        "description": "Crusader and Mamluk castle ruins, of which an 8.5m tower survives"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9953,
+          32.36
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wiki/al-al-castle",
+      "properties": {
+        "name": "מבצר אל-על",
+        "name:en": "Al-Al Castle",
+        "historic": "castle",
+        "castle_type": "defensive",
+        "ruins": "yes",
+        "wikipedia": "en:Castle_of_al-Al",
+        "description": "Bronze Age fortification in the southern Golan Heights, previously misidentified as a Crusader castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7453,
+          32.8031
+        ]
+      }
+    }
+  ]
+}

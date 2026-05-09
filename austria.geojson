@@ -129,7 +129,8 @@
         "wikidata": "Q874547",
         "wikimedia_commons": "Category:Grazer Burg",
         "wikipedia": "de:Grazer Burg",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1438"
       },
       "geometry": {
         "type": "Point",
@@ -1360,7 +1361,9 @@
         "wikimedia_commons": "Category:Schloss Eggenberg, Graz",
         "wikipedia": "de:Schloss Eggenberg (Graz)",
         "wikipedia:en": "Eggenberg_Palace",
-        "@geometry": "center"
+        "@geometry": "center",
+        "wikipedia_summary": "Eggenberg Palace in Graz is the most significant Baroque palace complex in Styria and a UNESCO World Heritage site. Its unique architectural design is based on the Gregorian calendar, featuring 365 windows and 24 state rooms to symbolize the days and hours of the year.",
+        "start_date": "1635"
       },
       "geometry": {
         "type": "Point",
@@ -2117,7 +2120,9 @@
         "wikidata": "Q877023",
         "wikimedia_commons": "Category:Castle_Hohenwerfen",
         "wikipedia": "de:Hohenwerfen",
-        "@geometry": "center"
+        "@geometry": "center",
+        "wikipedia_summary": "Hohenwerfen Castle is a medieval rock fortress situated on a 155-metre pillar overlooking the Salzach valley in Salzburg. It is a 'sister' to Hohensalzburg Fortress and is well-known for its historical falconry center and its use as a filming location for 'Where Eagles Dare.'",
+        "start_date": "1075"
       },
       "geometry": {
         "type": "Point",
@@ -2403,7 +2408,8 @@
         "wikidata": "Q1601707",
         "wikimedia_commons": "Category:Schloss Schönborn (Göllersdorf)",
         "wikipedia": "de:Schloss Schönborn (Göllersdorf)",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1712"
       },
       "geometry": {
         "type": "Point",
@@ -3007,7 +3013,8 @@
         "wikidata": "Q700764",
         "wikimedia_commons": "Category:Ambras_Castle",
         "wikipedia": "de:Schloss_Ambras",
-        "@geometry": "center"
+        "@geometry": "center",
+        "wikipedia_summary": "Ambras Castle is a Renaissance palace located in the hills above Innsbruck, Tyrol, which served as the residence of Archduke Ferdinand II. It is home to one of the oldest museums in the world, housing the Archduke's extensive collections of art, armor, and curiosities."
       },
       "geometry": {
         "type": "Point",
@@ -3256,7 +3263,8 @@
         "wikidata": "Q17591775",
         "wikimedia_commons": "Category:Schloss Herberstein",
         "wikipedia": "de:Schloss Herberstein",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1300"
       },
       "geometry": {
         "type": "Point",
@@ -5300,7 +5308,8 @@
         "wikidata": "Q378012",
         "wikimedia_commons": "Category:Kloster Mondsee",
         "wikipedia": "de:Kloster Mondsee",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1142"
       },
       "geometry": {
         "type": "Point",
@@ -5383,7 +5392,8 @@
         "wikidata": "Q875733",
         "wikimedia_commons": "Category:Schloss Bruck",
         "wikipedia": "de:Schloss Bruck (Lienz)",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1252"
       },
       "geometry": {
         "type": "Point",
@@ -6782,7 +6792,8 @@
         "wikidata": "Q15790347",
         "wikimedia_commons": "Category:Pfarrhof Mariapfarr",
         "wikipedia": "de:Burg Mariapfarr",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "2002"
       },
       "geometry": {
         "type": "Point",
@@ -6813,7 +6824,8 @@
         "wikidata": "Q253449",
         "wikimedia_commons": "Category:Palast Hohenems",
         "wikipedia": "de:Palast Hohenems",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1562"
       },
       "geometry": {
         "type": "Point",
@@ -7592,7 +7604,8 @@
         "type": "multipolygon",
         "wikidata": "Q62631977",
         "wikimedia_commons": "Category:Palais Metternich",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1846"
       },
       "geometry": {
         "type": "Point",
@@ -8266,7 +8279,8 @@
         "wikidata": "Q697003",
         "wikimedia_commons": "Category:Schloss Artstetten",
         "wikipedia": "de:Schloss Artstetten",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1253"
       },
       "geometry": {
         "type": "Point",
@@ -8451,7 +8465,8 @@
         "ruins": "yes",
         "type": "multipolygon",
         "wikidata": "Q100742773",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1100"
       },
       "geometry": {
         "type": "Point",
@@ -9577,7 +9592,8 @@
         "wikidata": "Q2242342",
         "wikimedia_commons": "Category:Schloss Mailberg",
         "wikipedia": "de:Schloss Mailberg",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1146"
       },
       "geometry": {
         "type": "Point",
@@ -10025,7 +10041,8 @@
         "wikidata": "Q1013372",
         "wikimedia_commons": "Category:Burg Oberkapfenberg",
         "wikipedia": "de:Burg Oberkapfenberg",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1173"
       },
       "geometry": {
         "type": "Point",
@@ -10084,7 +10101,8 @@
         "wikidata": "Q877307",
         "wikimedia_commons": "Category:Alte Burg Gmünd",
         "wikipedia": "de:Burg Gmünd",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1252"
       },
       "geometry": {
         "type": "Point",
@@ -10269,7 +10287,8 @@
         "wikidata": "Q2244072",
         "wikimedia_commons": "Category:Schloss Welzenegg",
         "wikipedia": "de:Schloss Welzenegg",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1575"
       },
       "geometry": {
         "type": "Point",
@@ -10695,7 +10714,8 @@
         "wikidata": "Q46242",
         "wikimedia_commons": "Category:Hofburg",
         "wikipedia": "de:Hofburg",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1279"
       },
       "geometry": {
         "type": "Point",
@@ -11437,7 +11457,8 @@
         "wikidata": "Q1013372",
         "wikimedia_commons": "Category:Burg Oberkapfenberg",
         "wikipedia": "de:Burg Oberkapfenberg",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1173"
       },
       "geometry": {
         "type": "Point",
@@ -15196,7 +15217,8 @@
         "wikidata": "Q50221819",
         "wikimedia_commons": "Category:Burgruine Rattenberg",
         "wikipedia": "de:Burgruine Rattenberg",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1254"
       },
       "geometry": {
         "type": "Point",
@@ -15588,7 +15610,8 @@
         "wikidata": "Q690288",
         "wikimedia_commons": "Category:Schattenburg",
         "wikipedia": "de:Schattenburg",
-        "@geometry": "center"
+        "@geometry": "center",
+        "wikipedia_summary": "Schattenburg is a well-preserved medieval castle in Feldkirch, Vorarlberg, built around 1200 by the Dukes of Montfort. Today, it functions as a museum with eighteen rooms dedicated to local history and houses a popular restaurant."
       },
       "geometry": {
         "type": "Point",
@@ -18054,7 +18077,8 @@
         "wikidata": "Q679292",
         "wikimedia_commons": "Category:Festung_Hohensalzburg",
         "wikipedia": "de:Festung Hohensalzburg",
-        "@geometry": "center"
+        "@geometry": "center",
+        "wikipedia_summary": "Hohensalzburg Fortress is a massive medieval complex sitting atop the Festungsberg mountain in Salzburg, making it one of the largest and best-preserved castles in Europe. Built by the prince-archbishops of Salzburg starting in 1077, it served as a powerful symbol of their authority."
       },
       "geometry": {
         "type": "Point",
@@ -18387,7 +18411,8 @@
         "wikimedia_commons": "Category:Burg_Forchtenstein",
         "wikipedia": "de:Burg Forchtenstein",
         "wikipedia:en": "Forchtenstein_Castle",
-        "@geometry": "center"
+        "@geometry": "center",
+        "wikipedia_summary": "Forchtenstein Castle is a Late Middle Ages fortification located in northern Burgenland, Austria, situated 511 metres above sea level. It is currently owned by the Esterházy family and serves as a museum for their historical treasures."
       },
       "geometry": {
         "type": "Point",
@@ -18529,7 +18554,8 @@
         "wikidata": "Q1015475",
         "wikimedia_commons": "Category:Burgruine Reichenau",
         "wikipedia": "de:Burgruine Reichenau",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1315"
       },
       "geometry": {
         "type": "Point",
@@ -18604,7 +18630,8 @@
         "wikidata": "Q693042",
         "wikimedia_commons": "Category:Kaiservilla",
         "wikipedia": "de:Kaiservilla Bad Ischl",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1860"
       },
       "geometry": {
         "type": "Point",
@@ -20475,7 +20502,8 @@
         "wikidata": "Q320907",
         "wikimedia_commons": "Category:Burgruine_Falkenstein",
         "wikipedia": "de:Burg Falkenstein (Niederösterreich)",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1050"
       },
       "geometry": {
         "type": "Point",
@@ -22770,7 +22798,8 @@
         "wikidata": "Q2046973",
         "wikimedia_commons": "Category:Palais Erzherzog Wilhelm",
         "wikipedia": "de:Palais Erzherzog Wilhelm",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1868"
       },
       "geometry": {
         "type": "Point",
@@ -23542,7 +23571,8 @@
         "wikidata": "Q698689",
         "wikimedia_commons": "Category:Burgruine Aggstein",
         "wikipedia": "de:Burgruine Aggstein",
-        "@geometry": "center"
+        "@geometry": "center",
+        "wikipedia_summary": "Aggstein Castle is a 12th-century ruined fortification perched on a rock outcrop overlooking the Danube in the Wachau region of Lower Austria. It is a popular tourist attraction known for its dramatic location and legends of robber barons."
       },
       "geometry": {
         "type": "Point",
@@ -23837,7 +23867,8 @@
         "name": "Schloss Steinbach",
         "wikidata": "Q104144543",
         "wikimedia_commons": "Category:Steinbach Castle (Göstling, Lower Austria)",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1894"
       },
       "geometry": {
         "type": "Point",
@@ -26335,7 +26366,8 @@
         "wikidata": "Q679248",
         "wikimedia_commons": "Category:Burg Hochosterwitz",
         "wikipedia": "de:Burg Hochosterwitz",
-        "@geometry": "center"
+        "@geometry": "center",
+        "wikipedia_summary": "Hochosterwitz Castle is one of Austria's most impressive medieval rock castles, situated on a 172-metre-high dolomite rock in Carinthia. It is famous for its 14 fortified gates and has remained in the possession of the Khevenhüller family since the 16th century."
       },
       "geometry": {
         "type": "Point",
@@ -28049,7 +28081,8 @@
         "wikidata": "Q875963",
         "wikimedia_commons": "Category:Schloss Eggenberg, Vorchdorf",
         "wikipedia": "de:Schloss Eggenberg (Vorchdorf)",
-        "@geometry": "center"
+        "@geometry": "center",
+        "wikipedia_summary": "Eggenberg Palace in Graz is the most significant Baroque palace complex in Styria and a UNESCO World Heritage site. Its unique architectural design is based on the Gregorian calendar, featuring 365 windows and 24 state rooms to symbolize the days and hours of the year."
       },
       "geometry": {
         "type": "Point",
@@ -30598,7 +30631,8 @@
         "wikidata": "Q16294541",
         "wikimedia_commons": "Category:Schloss Sigmundslust",
         "wikipedia": "de:Schloss Sigmundslust",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1460"
       },
       "geometry": {
         "type": "Point",
@@ -31298,7 +31332,8 @@
         "source": "Orthophoto: www.geoimage.at (c)",
         "wikidata": "Q15275669",
         "wikipedia": "en:Schloss Rosenegg",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1634"
       },
       "geometry": {
         "type": "Point",
@@ -31448,7 +31483,8 @@
         "wikidata": "Q50221819",
         "wikimedia_commons": "Category:Burgruine Rattenberg",
         "wikipedia": "de:Burgruine Rattenberg",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1254"
       },
       "geometry": {
         "type": "Point",
@@ -32129,7 +32165,8 @@
         "wikidata": "Q1015354",
         "wikimedia_commons": "Category:Burgruine Hohenwang",
         "wikipedia": "de:Burgruine Hohenwang",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1122"
       },
       "geometry": {
         "type": "Point",
@@ -33045,7 +33082,8 @@
         "source": "ViennaGIS",
         "wikidata": "Q110832119",
         "wikimedia_commons": "Category:Palais_Windisch-Graetz_(Strohgasse)",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1875"
       },
       "geometry": {
         "type": "Point",
@@ -33785,7 +33823,8 @@
         "wikidata": "Q15108349",
         "wikimedia_commons": "Category:Burgruine Schallenberg",
         "wikipedia": "de:Burgruine Schallenberg",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1231"
       },
       "geometry": {
         "type": "Point",
@@ -35058,7 +35097,8 @@
         "wikidata": "Q50221819",
         "wikimedia_commons": "Category:Burgruine Rattenberg",
         "wikipedia": "de:Burgruine Rattenberg",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1254"
       },
       "geometry": {
         "type": "Point",
@@ -35278,7 +35318,8 @@
         "wikidata": "Q1015446",
         "wikimedia_commons": "Category:Ruine Oberwallsee",
         "wikipedia": "de:Burgruine Oberwallsee",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1364"
       },
       "geometry": {
         "type": "Point",
@@ -35792,7 +35833,8 @@
         "wikidata": "Q2244188",
         "wikimedia_commons": "Category:Schloss Wilfersdorf",
         "wikipedia": "de:Schloss Wilfersdorf",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1600"
       },
       "geometry": {
         "type": "Point",
@@ -35967,7 +36009,8 @@
         "wikidata": "Q1485269",
         "wikimedia_commons": "Category:Schloss Fuschl",
         "wikipedia": "de:Schloss Fuschl",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1450"
       },
       "geometry": {
         "type": "Point",
@@ -36102,7 +36145,8 @@
         "wikidata": "Q1015393",
         "wikimedia_commons": "Category:Burgruine Leonstain",
         "wikipedia": "de:Burgruine Leonstein",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1166"
       },
       "geometry": {
         "type": "Point",
@@ -36674,7 +36718,8 @@
         "wikidata": "Q2664431",
         "wikimedia_commons": "File:Vöcklamarkt_Schloss_Walchen_Turm.JPG",
         "wikipedia": "de:Burg Walchen",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1040"
       },
       "geometry": {
         "type": "Point",
@@ -38863,7 +38908,8 @@
         "wikidata": "Q13649898",
         "wikimedia_commons": "Category:Tannberg Castle",
         "wikipedia": "de:Burgruine Tannberg",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1188"
       },
       "geometry": {
         "type": "Point",
@@ -40088,7 +40134,8 @@
         "wikidata": "Q1011689",
         "wikimedia_commons": "Category:Burg Falkenstein (Obervellach)",
         "wikipedia": "de:Burg Falkenstein (Obervellach)",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1164"
       },
       "geometry": {
         "type": "Point",
@@ -40513,7 +40560,8 @@
         "source": "geoimage.at",
         "wikidata": "Q106704607",
         "wikimedia_commons": "Category:Castle Potzneusiedl",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1970"
       },
       "geometry": {
         "type": "Point",
@@ -40568,7 +40616,8 @@
         "wikidata": "Q1643048",
         "wikimedia_commons": "Category:Schloss Moosham",
         "wikipedia": "de:Schloss Moosham",
-        "@geometry": "center"
+        "@geometry": "center",
+        "start_date": "1191"
       },
       "geometry": {
         "type": "Point",

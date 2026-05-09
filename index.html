@@ -1,17 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CastleAdvisor - Austria</title>
+    <title>CastleAdvisor - Map</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <style>
         /* Ensures the map fills the entire mobile or desktop screen */
-        body { margin: 0; padding: 0; }
-        #map { height: 100vh; width: 100%; }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .castle-tooltip {
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        .castle-icon {
+            background: white;
+            border: 3px solid #333;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Legend styling */
+        .legend {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+            line-height: 1.5;
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+
+        .legend i {
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            text-align: center;
+            margin-right: 8px;
+        }
+
+        .legend-border {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
+            border: 2px solid;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        /* Top Bar layout */
+        .top-bar {
+            position: absolute;
+            top: 10px;
+            left: 50px;
+            right: 10px;
+            z-index: 1000;
+            display: flex;
+            gap: 10px;
+            pointer-events: none;
+            /* Let clicks through to map in empty spaces */
+        }
+
+        .top-bar>div {
+            pointer-events: auto;
+            /* Re-enable clicks for controls */
+        }
+
+        /* Search Bar styling */
+        .search-container {
+            background: white;
+            padding: 5px;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+            width: 250px;
+            position: relative;
+            height: fit-content;
+        }
+
+        .search-container input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .search-results {
+            max-height: 300px;
+            overflow-y: auto;
+            background: white;
+            border: 1px solid #ccc;
+            border-top: none;
+            display: none;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 100%;
+            z-index: 1001;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .search-result-item {
+            padding: 8px;
+            cursor: pointer;
+            border-bottom: 1px solid #eee;
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+
+        .search-result-item:hover {
+            background-color: #f0f0f0;
+        }
+
+        /* Filter Panel styling */
+        .filter-panel {
+            background: white;
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-family: sans-serif;
+            font-size: 13px;
+            width: 250px;
+        }
+
+        .filter-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .filter-section strong {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 11px;
+            text-transform: uppercase;
+            color: #666;
+            border-bottom: 1px solid #eee;
+        }
+
+        .filter-options {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+        }
+
+        .filter-item {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .filter-item input {
+            margin-right: 8px;
+        }
     </style>
 </head>
+
 <body>
+
+    <div class="top-bar">
+        <div id="filter-panel" class="filter-panel">
+            <div class="filter-section">
+                <strong>Castle Type</strong>
+                <div id="type-filters" class="filter-options"></div>
+            </div>
+            <div class="filter-section">
+                <strong>Access</strong>
+                <div id="access-filters" class="filter-options">
+                    <label class="filter-item"><input type="checkbox" value="public" checked> <span
+                            class="legend-border"
+                            style="border-color: #28a745; background: #fff; width: 8px; height: 8px;"></span>
+                        Public</label>
+                    <label class="filter-item"><input type="checkbox" value="private" checked> <span
+                            class="legend-border"
+                            style="border-color: #dc3545; background: #fff; width: 8px; height: 8px;"></span>
+                        Private</label>
+                    <label class="filter-item"><input type="checkbox" value="unknown" checked> <span
+                            class="legend-border"
+                            style="border-color: #333; background: #fff; width: 8px; height: 8px;"></span>
+                        Unknown</label>
+                </div>
+            </div>
+            <div class="filter-section">
+                <strong>Condition</strong>
+                <div id="condition-filters" class="filter-options">
+                    <label class="filter-item"><input type="checkbox" value="ruin" checked> <span class="legend-border"
+                            style="border-color: #333; background: #ccc; width: 8px; height: 8px;"></span> Ruin</label>
+                    <label class="filter-item"><input type="checkbox" value="intact" checked> <span
+                            class="legend-border"
+                            style="border-color: #333; background: #fff; width: 8px; height: 8px;"></span>
+                        Intact</label>
+                </div>
+            </div>
+            <div class="filter-section">
+                <strong>Architecture</strong>
+                <div id="architecture-filters" class="filter-options">
+                    <label class="filter-item"><input type="checkbox" value="baroque" checked> Baroque</label>
+                    <label class="filter-item"><input type="checkbox" value="renaissance" checked> Renaissance</label>
+                    <label class="filter-item"><input type="checkbox" value="other" checked> Other</label>
+                </div>
+            </div>
+            <div class="filter-section">
+                <strong>Features</strong>
+                <div id="moated-filters" class="filter-options">
+                    <label class="filter-item"><input type="checkbox" value="yes" checked> Moated</label>
+                    <label class="filter-item"><input type="checkbox" value="no" checked> Not Moated</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="search-container">
+            <input type="text" id="castle-search" placeholder="Search castle by name..." autocomplete="off">
+            <div id="search-results" class="search-results"></div>
+        </div>
+    </div>
 
     <div id="map"></div>
 
@@ -25,28 +245,460 @@
             attribution: '&copy; OpenStreetMap contributors'
         }).addTo(map);
 
-        // 3. Load your Austria castle data
-        // Make sure your file is named 'austria.geojson' in the same repo folder
-        fetch('austria.geojson')
-            .then(response => response.json())
-            .then(data => {
-                L.geoJSON(data, {
-                    onEachFeature: function (feature, layer) {
-                        // Extract OSM tags for the popup
-                        const name = feature.properties.name || "Unknown Castle";
-                        const status = feature.properties.condition || "Not specified";
-                        const year = feature.properties.start_date || "Unknown";
-                        
-                        // Create the popup content
-                        layer.bindPopup(`
-                            <strong>${name}</strong><br>
-                            <b>Status:</b> ${status}<br>
-                            <b>Year Built:</b> ${year}
-                        `);
+        // Define categories and their icons/labels
+        const categories = {
+            'palace': { emoji: '🏛️', label: 'Palace' },
+            'stately': { emoji: '🏰', label: 'Stately Home' },
+            'defensive': { emoji: '🛡️', label: 'Defensive' },
+            'fortress': { emoji: '🏯', label: 'Fortress' },
+            'manor': { emoji: '🏡', label: 'Manor' },
+            'other': { emoji: '📍', label: 'Other' }
+        };
+
+        // Initialize Filter UI
+        const typeFiltersContainer = document.getElementById('type-filters');
+        for (const key in categories) {
+            const label = document.createElement('label');
+            label.className = 'filter-item';
+            label.innerHTML = `<input type="checkbox" value="${key}" checked> <i>${categories[key].emoji}</i> ${categories[key].label}`;
+            typeFiltersContainer.appendChild(label);
+        }
+
+        // List to store all marker data for filtering and searching
+        const allMarkers = [];
+
+        // Helper to get category key from castle_type
+        function getCategoryKey(castleType) {
+            if (!castleType) return 'other';
+            const type = castleType.toLowerCase();
+            if (type.includes('palace')) return 'palace';
+            if (type.includes('stately') || type.includes('castle')) return 'stately';
+            if (type.includes('defensive')) return 'defensive';
+            if (type.includes('fortress')) return 'fortress';
+            if (type.includes('manor')) return 'manor';
+            return 'other';
+        }
+
+        // Helper to get accessibility category
+        function getAccessCategory(props) {
+            const access = (props.access || '').toLowerCase();
+            const visit = (props.visit || '').toLowerCase();
+            const publicValues = ['yes', 'permissive', 'customers', 'entrance', 'guided_tour', 'free', 'public'];
+            const privateValues = ['no', 'private', 'appointment', 'permit', 'not even from outside'];
+
+            if (publicValues.includes(access) || publicValues.includes(visit)) return 'public';
+            if (privateValues.includes(access) || privateValues.includes(visit)) return 'private';
+            return 'unknown';
+        }
+
+        // Helper to get border color based on accessibility
+        function getBorderColor(accessCat) {
+            if (accessCat === 'public') return '#28a745';
+            if (accessCat === 'private') return '#dc3545';
+            return '#333';
+        }
+
+        // Centralized Visibility Update
+        function updateVisibility() {
+            const activeTypes = Array.from(document.querySelectorAll('#type-filters input:checked')).map(i => i.value);
+            const activeAccess = Array.from(document.querySelectorAll('#access-filters input:checked')).map(i => i.value);
+            const activeConditions = Array.from(document.querySelectorAll('#condition-filters input:checked')).map(i => i.value);
+            const activeArch = Array.from(document.querySelectorAll('#architecture-filters input:checked')).map(i => i.value);
+            const activeMoat = Array.from(document.querySelectorAll('#moated-filters input:checked')).map(i => i.value);
+
+            allMarkers.forEach(item => {
+                const typeMatch = activeTypes.includes(item.typeKey);
+                const accessMatch = activeAccess.includes(item.accessCat);
+                const conditionMatch = activeConditions.includes(item.condition);
+                const archMatch = activeArch.includes(item.archKey);
+                const moatMatch = activeMoat.includes(item.moated);
+
+                if (typeMatch && accessMatch && conditionMatch && archMatch && moatMatch) {
+                    if (!map.hasLayer(item.marker)) map.addLayer(item.marker);
+                } else {
+                    if (map.hasLayer(item.marker)) map.removeLayer(item.marker);
+                }
+            });
+        }
+
+        // Add listeners to all checkboxes
+        document.querySelectorAll('.filter-panel input').forEach(input => {
+            input.addEventListener('change', updateVisibility);
+        });
+
+        // 3. Data Loading & Caching Logic
+        const loadedIds = new Set(); // Global ID cache to prevent duplicates
+
+        // Country registry: add more entries as you export more GeoJSON files
+        const COUNTRIES = [
+            // ── Middle East ──────────────────────────────────────────────────────
+            { name: 'Israel',           file: 'israel.geojson',         bounds: [29.49, 34.27, 33.34, 35.90] },
+            // ── Western Europe ───────────────────────────────────────────────────
+            { name: 'Austria',          file: 'austria.geojson',         bounds: [46.37,  9.53, 49.02, 17.16] },
+            { name: 'Belgium',          file: 'belgium.geojson',         bounds: [49.50,  2.54, 51.51,  6.41] },
+            { name: 'France',           file: 'france.geojson',          bounds: [41.33, -5.14, 51.09,  9.56] },
+            { name: 'Germany',          file: 'germany.geojson',         bounds: [47.27,  5.87, 55.06, 15.04] },
+            { name: 'Ireland',          file: 'ireland.geojson',         bounds: [51.44, -10.48, 55.39, -6.00] },
+            { name: 'Liechtenstein',    file: 'liechtenstein.geojson',   bounds: [47.05,  9.47, 47.27,  9.64] },
+            { name: 'Luxembourg',       file: 'luxembourg.geojson',      bounds: [49.44,  5.73, 50.18,  6.53] },
+            { name: 'Monaco',           file: 'monaco.geojson',          bounds: [43.72,  7.40, 43.75,  7.44] },
+            { name: 'Netherlands',      file: 'netherlands.geojson',     bounds: [50.75,  3.36, 53.56,  7.23] },
+            { name: 'Portugal',         file: 'portugal.geojson',        bounds: [36.96, -9.50, 42.15, -6.19] },
+            { name: 'Spain',            file: 'spain.geojson',           bounds: [35.95, -9.30, 43.79,  4.33] },
+            { name: 'Switzerland',      file: 'switzerland.geojson',     bounds: [45.82,  5.96, 47.81, 10.49] },
+            { name: 'United Kingdom',   file: 'uk.geojson',              bounds: [49.88, -8.17, 60.86,  1.77] },
+            // ── Northern Europe ──────────────────────────────────────────────────
+            { name: 'Denmark',          file: 'denmark.geojson',         bounds: [54.56,  8.07, 57.75, 15.20] },
+            { name: 'Estonia',          file: 'estonia.geojson',         bounds: [57.51, 21.76, 59.68, 28.21] },
+            { name: 'Finland',          file: 'finland.geojson',         bounds: [59.81, 19.09, 70.09, 31.59] },
+            { name: 'Iceland',          file: 'iceland.geojson',         bounds: [63.40, -24.53, 66.54, -13.50] },
+            { name: 'Latvia',           file: 'latvia.geojson',          bounds: [55.67, 20.97, 57.97, 28.24] },
+            { name: 'Lithuania',        file: 'lithuania.geojson',       bounds: [53.89, 20.94, 56.45, 26.84] },
+            { name: 'Norway',           file: 'norway.geojson',          bounds: [57.99,  4.49, 71.19, 31.29] },
+            { name: 'Sweden',           file: 'sweden.geojson',          bounds: [55.34, 10.96, 69.06, 24.16] },
+            // ── Southern Europe ──────────────────────────────────────────────────
+            { name: 'Albania',          file: 'albania.geojson',         bounds: [39.64, 19.30, 42.67, 21.06] },
+            { name: 'Bosnia',           file: 'bosnia.geojson',          bounds: [42.56, 15.75, 45.28, 19.62] },
+            { name: 'Croatia',          file: 'croatia.geojson',         bounds: [42.39, 13.50, 46.55, 19.45] },
+            { name: 'Cyprus',           file: 'cyprus.geojson',          bounds: [34.57, 32.27, 35.71, 34.60] },
+            { name: 'Greece',           file: 'greece.geojson',          bounds: [34.80, 19.37, 41.75, 29.65] },
+            { name: 'Italy',            file: 'italy.geojson',           bounds: [35.49,  6.62, 47.09, 18.52] },
+            { name: 'Kosovo',           file: 'kosovo.geojson',          bounds: [41.86, 20.01, 43.27, 21.79] },
+            { name: 'Malta',            file: 'malta.geojson',           bounds: [35.80, 14.18, 36.08, 14.57] },
+            { name: 'Montenegro',       file: 'montenegro.geojson',      bounds: [41.85, 18.44, 43.56, 20.36] },
+            { name: 'North Macedonia',  file: 'north_macedonia.geojson', bounds: [40.85, 20.46, 42.36, 22.95] },
+            { name: 'Serbia',           file: 'serbia.geojson',          bounds: [42.23, 18.81, 46.18, 23.00] },
+            { name: 'Slovenia',         file: 'slovenia.geojson',        bounds: [45.42, 13.38, 46.88, 16.61] },
+            // ── Eastern Europe ───────────────────────────────────────────────────
+            { name: 'Belarus',          file: 'belarus.geojson',         bounds: [51.26, 23.18, 56.17, 32.75] },
+            { name: 'Bulgaria',         file: 'bulgaria.geojson',        bounds: [41.24, 22.36, 44.23, 28.61] },
+            { name: 'Czech Republic',   file: 'czech.geojson',           bounds: [48.55, 12.09, 51.06, 18.86] },
+            { name: 'Hungary',          file: 'hungary.geojson',         bounds: [45.74, 16.11, 48.58, 22.90] },
+            { name: 'Moldova',          file: 'moldova.geojson',         bounds: [45.47, 26.62, 48.49, 30.14] },
+            { name: 'Poland',           file: 'poland.geojson',          bounds: [49.00, 14.12, 54.84, 24.15] },
+            { name: 'Romania',          file: 'romania.geojson',         bounds: [43.62, 20.26, 48.27, 29.76] },
+            { name: 'Slovakia',         file: 'slovakia.geojson',        bounds: [47.73, 16.84, 49.61, 22.56] },
+            { name: 'Ukraine',          file: 'ukraine.geojson',         bounds: [44.39, 22.14, 52.38, 40.23] },
+        ];
+        const loadedCountries = new Set(); // Track which files have been fetched
+
+        // Main GeoJSON layer that we will add data to incrementally
+        const castleLayer = L.geoJSON(null, {
+            pointToLayer: function (feature, latlng) {
+                const props = feature.properties;
+                const typeKey = getCategoryKey(props.castle_type);
+                const accessCat = getAccessCategory(props);
+                const isRuin = props.ruins === 'yes' || props.ruins === 'castle' || props.historic === 'ruins';
+                const borderColor = getBorderColor(accessCat);
+                const bgColor = isRuin ? '#ccc' : '#fff';
+                const condition = isRuin ? 'ruin' : 'intact';
+
+                // Architecture mapping for filter
+                let archKey = 'other';
+                const arch = (props['building:architecture'] || '').toLowerCase();
+                if (arch.includes('baroque') || arch.includes('barocco')) archKey = 'baroque';
+                else if (arch.includes('renaissance')) archKey = 'renaissance';
+
+                const moated = props.moated === 'yes' ? 'yes' : 'no';
+
+                const icon = L.divIcon({
+                    className: 'castle-icon',
+                    html: `<div style="display:flex;align-items:center;justify-content:center;width:100%;height:100%;background-color:${bgColor};border-radius:50%;">${categories[typeKey].emoji}</div>`,
+                    iconSize: [30, 30],
+                    iconAnchor: [15, 15]
+                });
+
+                const marker = L.marker(latlng, { icon: icon });
+
+                marker.on('add', function () {
+                    this.getElement().style.borderColor = borderColor;
+                });
+
+                allMarkers.push({
+                    name: (props.name || "Unknown Castle").toLowerCase(),
+                    displayName: props.name || "Unknown Castle",
+                    marker: marker,
+                    typeKey: typeKey,
+                    accessCat: accessCat,
+                    condition: condition,
+                    archKey: archKey,
+                    moated: moated
+                });
+
+                return marker;
+            },
+            onEachFeature: function (feature, layer) {
+                const props = feature.properties;
+                const name = props.name || "Unknown Castle";
+                const status = props.condition || "";
+                const year = props.start_date || "Unknown";
+                const access = props.access || "";
+                const visit = props.visit || "";
+                const ruins = props.ruins === 'yes' ? "Yes" : "";
+                const website = props.website || props['contact:website'] || props.url || "";
+
+                // New properties
+                const arch = props['building:architecture'] || "";
+                const moated = props.moated === 'yes' ? "Yes" : "";
+                const heritage = props.heritage || "";
+                const heritageOp = props['heritage:operator'] || "";
+                const amenity = props.amenity || "";
+                const office = props.office || "";
+                const officialTitle = props.official_title || "";
+                const heritageStatus = props.heritage_status || "";
+                const officialAddress = props.official_address || "";
+
+                // Extract image logic
+                let imageUrl = props.image;
+                let imgHtml = "";
+                if (imageUrl) {
+                    if (imageUrl.startsWith("File:")) {
+                        imageUrl = `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(imageUrl.substring(5))}?width=150`;
+                    } else if (imageUrl.includes("wikimedia.org/wiki/File:")) {
+                        imageUrl = `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(imageUrl.split("File:")[1])}?width=150`;
                     }
-                }).addTo(map);
-            })
-            .catch(error => console.error('Error loading the GeoJSON:', error));
+                    imgHtml = `<img src="${imageUrl}" style="width:150px; height:auto; display:block; margin: 5px auto 0; border-radius:4px;" />`;
+                }
+
+                const summary = props.wikipedia_summary || "";
+                const summaryHtml = summary ? `<div style="margin-top: 8px; font-style: italic; font-size: 0.85em; border-top: 1px solid #ccc; padding-top: 5px;">${summary}</div>` : "";
+
+                const wikiTag = props.wikipedia;
+                const wikidataId = props.wikidata;
+                let wikiUrl = "";
+                if (wikiTag && wikiTag.includes(':')) {
+                    const [lang, article] = wikiTag.split(':');
+                    wikiUrl = `https://${lang}.wikipedia.org/wiki/${encodeURIComponent(article)}`;
+                } else if (wikidataId) {
+                    wikiUrl = `https://www.wikidata.org/wiki/Special:GoToLinkedPage/dewiki/${wikidataId}`;
+                }
+                const wikiHtml = wikiUrl ? `<div style="margin-top: 5px; font-size: 0.8em;"><a href="${wikiUrl}" target="_blank" style="color: #007bff; text-decoration: none;">📖 View on Wikipedia</a></div>` : "";
+                // Extract Website link
+                let formattedWebsite = website;
+                if (formattedWebsite && !formattedWebsite.startsWith('http')) formattedWebsite = 'http://' + formattedWebsite;
+                const websiteHtml = formattedWebsite ? `<div style="margin-top: 2px; font-size: 0.8em;"><a href="${formattedWebsite}" target="_blank" style="color: #007bff; text-decoration: none;">🔗 Official Website</a></div>` : "";
+
+                // Dynamic Image Fetching Logic
+                // Initial image HTML (either existing or placeholder)
+                let currentImgHtml = imgHtml;
+                if (!imgHtml && (wikiTag || wikidataId)) {
+                    currentImgHtml = `<div class="img-placeholder" style="width:150px; height:100px; background:#f0f0f0; border-radius:4px; margin: 5px auto; display:flex; align-items:center; justify-content:center; font-size:10px; color:#888;">Loading image...</div>`;
+                }
+
+                // Create the combined content
+                const getFullContent = (imgContent) => `
+                            <div class="castle-tooltip" style="max-width: 250px;">
+                                <strong>${name}</strong><br>
+                                ${officialTitle ? `<div style="font-size: 0.8em; color: #666; margin-bottom: 5px;">${officialTitle}</div>` : ''}
+                                ${imgContent}
+                                <div style="margin-top: 5px; font-size: 0.9em; text-align: left;">
+                                    ${status ? `<b>Status:</b> ${status}` : ''}
+                                    ${heritageStatus ? `${status ? '<br>' : ''}<b>Heritage Status:</b> ${heritageStatus}` : ''}
+                                    ${year !== 'Unknown' ? `<br><b>Year Built:</b> ${year}` : ''}
+                                    ${arch ? `<br><b>Architecture:</b> ${arch}` : ''}
+                                    ${moated ? `<br><b>Moated:</b> Yes` : ''}
+                                    ${heritage ? `<br><b>Heritage:</b> Level ${heritage} (${heritageOp || 'OSM'})` : ''}
+                                    ${amenity ? `<br><b>Current Use:</b> ${amenity}` : ''}
+                                    ${office ? `<br><b>Office:</b> ${office}` : ''}
+                                    ${access ? `<br><b>Access:</b> ${access}` : ''}
+                                    ${visit ? `<br><b>Visit:</b> ${visit}` : ''}
+                                    ${ruins ? `<br><b>Ruin:</b> Yes` : ''}
+                                    ${officialAddress ? `<br><div style="font-size: 0.85em; color: #555; margin-top: 3px;">📍 ${officialAddress}</div>` : ''}
+                                </div>
+                                ${summaryHtml}
+                                ${wikiHtml}
+                                ${websiteHtml}
+                            </div>
+                        `;
+
+                layer.bindTooltip(getFullContent(currentImgHtml), {
+                    sticky: false,
+                    direction: 'top',
+                    offset: [0, -10],
+                    opacity: 0.9,
+                    interactive: false // Tooltip is for preview, Popup for interaction
+                });
+
+                layer.bindPopup(getFullContent(currentImgHtml));
+
+                // Function to fetch and update image
+                const updateImage = async () => {
+                    // Guard: Don't fetch if already have image, or if currently loading
+                    if (feature.properties.image || feature.properties.image_loading_in_progress) return;
+                    if (!wikiTag && !wikidataId) return;
+
+                    feature.properties.image_loading_in_progress = true;
+
+                    try {
+                        let title = "";
+                        let lang = "de";
+
+                        if (wikiTag && wikiTag.includes(':')) {
+                            [lang, title] = wikiTag.split(':');
+                        } else if (wikidataId) {
+                            const wdRes = await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${wikidataId}.json`);
+                            const wdData = await wdRes.json();
+                            const entity = wdData.entities[wikidataId];
+                            title = entity.sitelinks.dewiki ? entity.sitelinks.dewiki.title : (entity.sitelinks.enwiki ? entity.sitelinks.enwiki.title : "");
+                            if (!title) {
+                                feature.properties.image_loading_in_progress = false;
+                                return;
+                            }
+                        }
+
+                        const wikiApiUrl = `https://${lang}.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(title)}&prop=pageimages&format=json&pithumbsize=300&origin=*`;
+                        const response = await fetch(wikiApiUrl);
+                        const json = await response.json();
+                        const pages = json.query.pages;
+                        const pageId = Object.keys(pages)[0];
+
+                        if (pageId !== "-1" && pages[pageId].thumbnail) {
+                            const thumbUrl = pages[pageId].thumbnail.source;
+                            feature.properties.image = thumbUrl; // Cache it
+
+                            const newImgHtml = `<img src="${thumbUrl}" style="width:150px; height:auto; display:block; margin: 5px auto 0; border-radius:4px;" />`;
+
+                            // Update both tooltip and popup content
+                            layer.setTooltipContent(getFullContent(newImgHtml));
+                            layer.setPopupContent(getFullContent(newImgHtml));
+                        } else {
+                            // No image found, clear state so we don't try again for this session
+                            feature.properties.image = "none";
+                            layer.setTooltipContent(getFullContent(""));
+                            layer.setPopupContent(getFullContent(""));
+                        }
+                    } catch (error) {
+                        console.error("Error fetching image:", error);
+                    } finally {
+                        feature.properties.image_loading_in_progress = false;
+                    }
+                };
+
+                // Fetch image when marker is interacted with
+                layer.on('mouseover click', () => {
+                    updateImage();
+                });
+            }
+        }).addTo(map);
+
+        function loadDataInView() {
+            const bounds = map.getBounds();
+
+            COUNTRIES.forEach(country => {
+                // Already loaded this country's file
+                if (loadedCountries.has(country.file)) return;
+
+                // Check if map view overlaps this country's bounding box
+                const [south, west, north, east] = country.bounds;
+                const countryBounds = L.latLngBounds([[south, west], [north, east]]);
+                if (!bounds.intersects(countryBounds)) return;
+
+                loadedCountries.add(country.file); // Mark as loading immediately to prevent double-fetch
+
+                fetch(country.file)
+                    .then(res => {
+                        if (!res.ok) throw new Error(`Failed to load ${country.file}: ${res.status}`);
+                        return res.json();
+                    })
+                    .then(geojson => {
+                        const newFeatures = geojson.features.filter(f => {
+                            const id = f.id || (f.properties && f.properties['@id']) || JSON.stringify(f.geometry.coordinates);
+                            if (loadedIds.has(id)) return false;
+                            loadedIds.add(id);
+                            return true;
+                        });
+
+                        if (newFeatures.length > 0) {
+                            castleLayer.addData({ type: 'FeatureCollection', features: newFeatures });
+                            updateVisibility();
+                        }
+                        console.log(`Loaded ${newFeatures.length} castles from ${country.file}`);
+                    })
+                    .catch(err => {
+                        console.error(err);
+                        loadedCountries.delete(country.file); // Allow retry on error
+                    });
+            });
+        }
+
+        // Trigger on initial load and subsequent pans
+        map.on('moveend', loadDataInView);
+        loadDataInView();
+
+        // Setup Search Logic
+        const searchInput = document.getElementById('castle-search');
+        const searchResults = document.getElementById('search-results');
+
+        searchInput.addEventListener('input', function () {
+            const query = this.value.toLowerCase();
+            searchResults.innerHTML = '';
+
+            if (query.length < 2) {
+                searchResults.style.display = 'none';
+                return;
+            }
+
+            const filtered = allMarkers
+                .filter(item => item.name.includes(query))
+                .slice(0, 10); // Limit to 10 results
+
+            if (filtered.length > 0) {
+                filtered.forEach(item => {
+                    const div = document.createElement('div');
+                    div.className = 'search-result-item';
+                    div.textContent = item.displayName;
+                    div.addEventListener('click', () => {
+                        // Ensure marker is visible by auto-checking its filters
+                        const typeCheckbox = document.querySelector(`#type-filters input[value="${item.typeKey}"]`);
+                        const accessCheckbox = document.querySelector(`#access-filters input[value="${item.accessCat}"]`);
+                        const conditionCheckbox = document.querySelector(`#condition-filters input[value="${item.condition}"]`);
+
+                        let changed = false;
+                        if (typeCheckbox && !typeCheckbox.checked) {
+                            typeCheckbox.checked = true;
+                            changed = true;
+                        }
+                        if (accessCheckbox && !accessCheckbox.checked) {
+                            accessCheckbox.checked = true;
+                            changed = true;
+                        }
+                        if (conditionCheckbox && !conditionCheckbox.checked) {
+                            conditionCheckbox.checked = true;
+                            changed = true;
+                        }
+                        const archCheckbox = document.querySelector(`#architecture-filters input[value="${item.archKey}"]`);
+                        if (archCheckbox && !archCheckbox.checked) {
+                            archCheckbox.checked = true;
+                            changed = true;
+                        }
+                        const moatCheckbox = document.querySelector(`#moated-filters input[value="${item.moated}"]`);
+                        if (moatCheckbox && !moatCheckbox.checked) {
+                            moatCheckbox.checked = true;
+                            changed = true;
+                        }
+
+                        if (changed) updateVisibility();
+
+                        map.setView(item.marker.getLatLng(), 15);
+                        item.marker.openPopup();
+                        searchResults.style.display = 'none';
+                        searchInput.value = item.displayName;
+                    });
+                    searchResults.appendChild(div);
+                });
+                searchResults.style.display = 'block';
+            } else {
+                searchResults.style.display = 'none';
+            }
+        });
+
+        // Close search results when clicking outside
+        document.addEventListener('click', function (e) {
+            if (!document.querySelector('.search-container').contains(e.target)) {
+                searchResults.style.display = 'none';
+            }
+        });
     </script>
 </body>
+
 </html>

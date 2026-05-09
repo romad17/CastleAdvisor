@@ -1,0 +1,6730 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-05-09T11:37:00Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/58417",
+        "alt_name": "Castelul Hunyadi",
+        "building": "yes",
+        "building:material": "brick",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Castelul Huniade",
+        "name:de": "Schloss Hunyadi",
+        "name:en": "Hunyadi Castle",
+        "name:hu": "Hunyadi kastély",
+        "tourism": "attraction",
+        "type": "multipolygon",
+        "wikidata": "Q2067482",
+        "wikipedia": "en:Huniade Castle",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2271039,
+          45.7530533
+        ]
+      },
+      "id": "relation/58417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2230393",
+        "addr:city": "București",
+        "addr:country": "RO",
+        "addr:housenumber": "1",
+        "addr:postcode": "050017",
+        "addr:street": "Strada Constantin Mille",
+        "building": "public",
+        "building:colour": "cream",
+        "building:levels": "5",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "Cercul Militar Național",
+        "name:en": "Palace of the National Military Circle",
+        "name:ro": "Cercul Militar Național",
+        "roof:colour": "silver",
+        "roof:levels": "1",
+        "roof:shape": "hipped",
+        "start_date": "1923",
+        "tourism": "attraction",
+        "type": "multipolygon",
+        "wheelchair": "no",
+        "wikidata": "Q1670223",
+        "wikipedia": "en:Palace of the National Military Circle",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0970948,
+          44.4351005
+        ]
+      },
+      "id": "relation/2230393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2272921",
+        "addr:city": "București",
+        "addr:housenumber": "1",
+        "addr:street": "Bulevardul Geniului",
+        "architect": "Paul Gottereau",
+        "building": "public",
+        "castle_type": "palace",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Palatul Cotroceni",
+        "name:de": "Schloss Cotroceni",
+        "ref:RO:lmi": "B-II-a-A-19152",
+        "ref:RO:ran": "179132.95",
+        "ruins": "no",
+        "source:addr:housenumber": "survey",
+        "source:addr:street": "survey",
+        "type": "multipolygon",
+        "wikidata": "Q733838",
+        "wikipedia": "en:Cotroceni Palace",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0616497,
+          44.4340079
+        ]
+      },
+      "id": "relation/2272921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2832495",
+        "building": "residential",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Castelul Wass-Bánffy",
+        "name:de": "Schloss Gilău",
+        "name:hu": "Gyalui várkastély",
+        "name:ro": "Castelul Wass-Bánffy",
+        "type": "multipolygon",
+        "website": "https://castelwassbanffygilau.ro/",
+        "wikidata": "Q1415653",
+        "wikipedia": "ro:Castelul Wass-Banffy de la Gilău",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.382473,
+          46.7567478
+        ]
+      },
+      "id": "relation/2832495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2873706",
+        "addr:city": "Alba Iulia",
+        "building": "yes",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "Palatul Princiar",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5707186,
+          46.0669129
+        ]
+      },
+      "id": "relation/2873706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2954622",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Castelul Kendy-Kemény",
+        "tourism": "attraction",
+        "type": "multipolygon",
+        "wikidata": "Q20275883",
+        "wikipedia": "ro:Castelul Kemény din Brâncovenești",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7671563,
+          46.8611897
+        ]
+      },
+      "id": "relation/2954622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3132264",
+        "historic": "castle",
+        "name": "Cetatea Rupea",
+        "name:en": "Rupea Fortress",
+        "tourism": "attraction",
+        "type": "multipolygon",
+        "wikidata": "Q12723870",
+        "wikipedia": "ro:Cetatea Rupea",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2124194,
+          46.0373462
+        ]
+      },
+      "id": "relation/3132264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3166516",
+        "alt_name": "Palatul Patriarhal",
+        "architect": "Gheorghe Simotta",
+        "architect:wikipedia": "ro:Gheorghe Simotta",
+        "building": "yes",
+        "castle_type": "palace",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Reședința Patriarhului",
+        "ref:RO:lmi": "B-II-m-A-18571.03",
+        "ref:RO:ran": "179132.99.03",
+        "start_date": "1937",
+        "type": "multipolygon",
+        "wikidata": "Q12737424",
+        "wikipedia": "ro:Palatul Patriarhal",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0971471,
+          44.4243798
+        ]
+      },
+      "id": "relation/3166516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3300200",
+        "SIRUTA:code": "40642",
+        "addr:city": "Bran",
+        "addr:housenumber": "495-498",
+        "addr:postcode": "507025",
+        "addr:street": "Strada General Traian Moșoiu",
+        "building": "yes",
+        "castle_type": "stately",
+        "check_date": "2023-08-18",
+        "codul_entității_muzeale": "6914700.0",
+        "email": "office@bran-castle.com;contact@muzeul-bran.ro",
+        "fax": "0268/237.702",
+        "fee": "yes",
+        "height": "50 m",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "image": "https://photos.app.goo.gl/cwsqsKev71WDrrCj8",
+        "is_in": "Bran",
+        "name": "Castelul Bran",
+        "name:ca": "Castell de Bran",
+        "name:de": "Schloss Törzburg",
+        "name:en": "Bran Castle",
+        "name:hu": "Törcsvári kastély",
+        "name:it": "Castello di Bran",
+        "name:ml": "ഡ്രാക്കുള കോട്ട",
+        "name:pl": "Zamek Bran",
+        "name:ru": "Замок Бран",
+        "opening_hours": "Mo 12:00-18:00; Apr-Sep Tu-Su 09:00-18:00; Oct-Mar 09:00-16:00",
+        "phone": "0268/237.700 0268/237.701",
+        "ref:RO:lmi": "BV-II-m-B-11612.01",
+        "roof:height": "5",
+        "roof:shape": "hipped",
+        "source": "INP",
+        "source:link": "http://date.gov.ro/dataset/ghidul-muzeelor-din-romania",
+        "start_date": "2009",
+        "tourism": "attraction",
+        "tourism_survey": "10.12.2013 13:53:11",
+        "type": "multipolygon",
+        "url": "https://www.youtube.com/watch?v=UHRcQmQ_hK0",
+        "url:0": "https://youtu.be/Kj-iqz6lD4A",
+        "website": "https://bran-castle.com/",
+        "wheelchair": "no",
+        "wikidata": "Q390275",
+        "wikipedia": "en:Bran Castle",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3670927,
+          45.5150827
+        ]
+      },
+      "id": "relation/3300200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3579703",
+        "building": "yes",
+        "castle_type": "defensive",
+        "end_date": "110",
+        "historic": "castle",
+        "historic:civilization": "dacian",
+        "material": "stone",
+        "start_date": "~100 BC",
+        "type": "multipolygon",
+        "wikidata": "Q739802",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3081425,
+          45.6214633
+        ]
+      },
+      "id": "relation/3579703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4231858",
+        "access": "yes",
+        "building": "yes",
+        "building:colour": "#FFEBCD",
+        "castle_type": "manor",
+        "height": "10",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Castelul Kornis-Rákóczi-Bethlen",
+        "roof:height": "3",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled",
+        "type": "multipolygon",
+        "wheelchair": "limited",
+        "wikidata": "Q1119167",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2461241,
+          46.450274
+        ]
+      },
+      "id": "relation/4231858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4438693",
+        "access": "customers",
+        "building": "yes",
+        "building:architecture": "renaissance",
+        "building:colour": "#96a1a3",
+        "building:levels": "2",
+        "castle_type": "defensive",
+        "height": "15",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Castelul Mikó",
+        "name:en": "Mikó Castle",
+        "name:hu": "Mikó-vár",
+        "ref:RO:lmi": "HR-II-a-A-12726",
+        "roof:colour": "#c75d4d",
+        "roof:height": "8",
+        "roof:shape": "hipped",
+        "start_date": "1631",
+        "tourism": "attraction",
+        "type": "multipolygon",
+        "wikidata": "Q614686",
+        "wikipedia": "hu:Mikó-vár",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8020956,
+          46.3557948
+        ]
+      },
+      "id": "relation/4438693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/5995591",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "name": "Biserica fortificată din Movile (St. Michael)",
+        "type": "multipolygon",
+        "wikidata": "Q12722685",
+        "wikipedia": "ro:Biserica fortificată din Movile",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7915781,
+          46.0215047
+        ]
+      },
+      "id": "relation/5995591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6529304",
+        "addr:city": "Sibiu",
+        "addr:housenumber": "2",
+        "addr:postcode": "550179",
+        "addr:street": "Strada Mitropoliei",
+        "building": "yes",
+        "historic": "castle",
+        "is_in:city": "Sibiu",
+        "is_in:country": "România",
+        "is_in:country_code": "RO",
+        "is_in:state": "Sibiu",
+        "is_in:state_code": "SB",
+        "name": "Casa Altemberger - Muzeul de Istorie",
+        "type": "multipolygon",
+        "website": "http://www.brukenthalmuseum.ro/istorie/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1492782,
+          45.7969242
+        ]
+      },
+      "id": "relation/6529304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6565010",
+        "addr:city": "Sibiu",
+        "addr:housenumber": "4",
+        "addr:postcode": "550163",
+        "addr:street": "Piața Mare",
+        "building": "yes",
+        "historic": "castle",
+        "level": "3",
+        "name": "Palatul Brukenthal",
+        "name:de": "Palais Brukenthal",
+        "name:fr": "Palais Brukenthal",
+        "name:ro": "Palatul Brukenthal",
+        "type": "multipolygon",
+        "website": "http://www.brukenthalmuseum.ro/",
+        "wikidata": "Q18545112",
+        "wikipedia": "ro:Palatul Brukenthal din Sibiu",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.150383,
+          45.7963836
+        ]
+      },
+      "id": "relation/6565010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7114832",
+        "castle_type": "defensive",
+        "description:hu": "Amikor Mihai Viteazul havasalföldi vajda Erdélybe betört, a székelyek azzal a feltétellel álltak mellé, hogy visszakapják régi szabadságjogaikat, és az ellenük emelt két várat, a székelyudvarhelyi Székelytámadt várat és a Várhegyen emelt Székelybánja vára",
+        "historic": "castle",
+        "name": "Ruinele cetății Székely Támadt",
+        "name:en": "Ruinele cetății Székely Támadt",
+        "name:hu": "Székely támadt vár",
+        "name:ro": "Ruinele cetății Székely Támadt",
+        "source": "http://udvarhelyszek.eloerdely.ro/epitett-orokseg/var/szekely-tamadt-var",
+        "tourism": "attraction",
+        "type": "multipolygon",
+        "wikipedia": "hu:Székelytámadt vár",
+        "wikipedia:ro": "Ruinele cetății Székely Támadt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2962102,
+          46.3058033
+        ]
+      },
+      "id": "relation/7114832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13411665",
+        "architect": "Adolf Lang",
+        "building": "yes",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "Palatul Societății de Asigurări „Naționala”",
+        "start_date": "1882",
+        "type": "multipolygon",
+        "website": "http://reptilianul.ro/2020/03/26/hilton-garden-inn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1007494,
+          44.4328866
+        ]
+      },
+      "id": "relation/13411665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14059159",
+        "addr:city": "București",
+        "addr:housenumber": "25",
+        "addr:street": "Aleea Dealul Mitropoliei",
+        "alt_name": "Palatul Camerei Deputaților",
+        "architect": "Dimitrie Maimarolu",
+        "architect:wikipedia": "ro:Dimitrie Maimarolu",
+        "building": "yes",
+        "castle_type": "palace",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Palatul Patriarhiei",
+        "name:de": "Patriarchatspalast",
+        "name:en": "Palace of the Patriarchate",
+        "name:es": "Palacio del Patriarcado",
+        "ref:RO:lmi": "B-II-m-B-18571.04",
+        "source:addr:street": "survey",
+        "start_date": "1907",
+        "type": "multipolygon",
+        "wikidata": "Q3333397",
+        "wikipedia": "ro:Palatul Camerei Deputaților",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0980756,
+          44.4241141
+        ]
+      },
+      "id": "relation/14059159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14317768",
+        "alt_name": "Palatul BCR",
+        "architect": "Oscar Maugsch",
+        "building": "yes",
+        "castle_type": "palace",
+        "historic": "castle",
+        "image": "https://photos.app.goo.gl/4Gc6btbEyNNgiszMA",
+        "name": "Palatul Generala",
+        "ref:RO:lmi": "B-II-m-A-18675",
+        "start_date": "1906",
+        "type": "multipolygon",
+        "wikidata": "Q26257202",
+        "wikipedia": "ro:Palatul Generala",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1008972,
+          44.4342769
+        ]
+      },
+      "id": "relation/14317768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14862831",
+        "addr:city": "București",
+        "addr:housenumber": "1",
+        "addr:postcode": "030051",
+        "addr:street": "Strada Doamnei",
+        "building": "yes",
+        "building:levels": "3",
+        "castle_type": "palace",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Palatul Nifon Mitropolitul",
+        "ref:RO:lmi": "B-II-m-B-17929",
+        "roof:levels": "1",
+        "start_date": "1895",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0986804,
+          44.434251
+        ]
+      },
+      "id": "relation/14862831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14937373",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Conacul San Marco",
+        "name:hu": "San Marco-kúria",
+        "type": "multipolygon",
+        "wikidata": "Q43138633",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.6285595,
+          45.8908312
+        ]
+      },
+      "id": "relation/14937373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15570844",
+        "building": "yes",
+        "historic": "castle",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0173851,
+          46.1228969
+        ]
+      },
+      "id": "relation/15570844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18736403",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Ansamblul conacului Ştefan Bellu",
+        "ref:RO:lmi": "GR-II-a-A-15004",
+        "ruins": "yes",
+        "start_date": "C18",
+        "type": "multipolygon",
+        "wikidata": "Q18543866",
+        "wikipedia": "ro:Conacul Ștefan Bellu din Gostinari",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2226654,
+          44.1873294
+        ]
+      },
+      "id": "relation/18736403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19141226",
+        "building": "yes",
+        "historic": "castle",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8964438,
+          45.8890658
+        ]
+      },
+      "id": "relation/19141226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20659881",
+        "barrier": "city_wall",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "Cetatea Râșnov",
+        "name:de": "Zitadelle Rosenau",
+        "name:en": "Râșnov Citadel",
+        "name:hu": "Rozsnyó vára",
+        "name:it": "Fortezza di Rasnov",
+        "opening_hours": "Mo-Su 09:00-19:00",
+        "start_date": "C14",
+        "tourism": "attraction",
+        "type": "multipolygon",
+        "website": "https://www.cetatea-rasnov.ro/",
+        "wheelchair": "yes",
+        "wikidata": "Q3656045",
+        "wikipedia": "ro:Cetatea Râșnov",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4693265,
+          45.5905834
+        ]
+      },
+      "id": "relation/20659881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29603043",
+        "addr:city": "Brașov",
+        "barrier": "city_wall",
+        "castle_type": "fortress",
+        "historic": "fortress",
+        "name": "Cetățuia de pe Strajă",
+        "tourism": "attraction",
+        "two_sided": "yes",
+        "wikidata": "Q733678",
+        "wikipedia": "ro:Cetățuia de pe Strajă",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5918392,
+          45.6493509
+        ]
+      },
+      "id": "way/29603043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/30795433",
+        "barrier": "city_wall",
+        "historic": "castle",
+        "name": "Biserica fortificata Cisnădioara",
+        "wikimedia_commons": "File:Biserica fortificata Cisnădioara.jpg",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1121276,
+          45.7029693
+        ]
+      },
+      "id": "way/30795433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/32335381",
+        "architect": "Ștefan Burcuș",
+        "architect:wikipedia": "ro:Ștefan Burcuș",
+        "building": "yes",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "Palatul Bursei de Valori",
+        "start_date": "1912",
+        "wikidata": "Q18545113",
+        "wikimedia_commons": "Category:Stock Exchange Palace, Bucharest",
+        "wikipedia": "ro:Palatul Bursei",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1006904,
+          44.4335679
+        ]
+      },
+      "id": "way/32335381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39313897",
+        "access": "yes",
+        "addr:city": "București",
+        "addr:country": "RO",
+        "addr:housenumber": "39",
+        "addr:postcode": "010102",
+        "addr:street": "Strada Știrbei Vodă",
+        "building": "yes",
+        "building:levels": "3",
+        "historic": "castle",
+        "historic:civilization": "modern",
+        "name": "Palatul Crețulescu",
+        "name:en": "Kretzulescu Palace",
+        "roof:shape": "hipped",
+        "start_date": "1904",
+        "wikidata": "Q2684173",
+        "wikimedia_commons": "Category:Cretzulescu Palace",
+        "wikipedia": "en:Crețulescu Palace",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0887214,
+          44.4395312
+        ]
+      },
+      "id": "way/39313897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39349044",
+        "building": "yes",
+        "castle_type": "stately",
+        "description": "kitchen",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Cuhnie",
+        "ref:RO:lmi": "IF-II-m-A-15298.04",
+        "source": "Yahoo imagery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9935407,
+          44.5281569
+        ]
+      },
+      "id": "way/39349044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39349046",
+        "building": "yes",
+        "castle_type": "stately",
+        "description": "guest house",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Vila d' Elchingen",
+        "ref:RO:lmi": "IF-II-a-A-15298.05",
+        "source": "Yahoo imagery",
+        "tourism": "hotel",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9935257,
+          44.5275424
+        ]
+      },
+      "id": "way/39349046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39349047",
+        "building": "yes",
+        "castle_type": "stately",
+        "description": "vault",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Palatul Mogoșoaia",
+        "ref:RO:lmi": "IF-II-m-A-15298.01",
+        "source": "Yahoo imagery",
+        "start_date": "1702",
+        "wikidata": "Q1503441",
+        "wikipedia": "en:Mogoșoaia Palace",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9926423,
+          44.5276365
+        ]
+      },
+      "id": "way/39349047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39349063",
+        "building": "yes",
+        "castle_type": "stately",
+        "description": "ice building",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Ghețărie",
+        "ref:RO:lmi": "IF-II-m-A-15298.09",
+        "source": "Yahoo imagery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9925458,
+          44.528211
+        ]
+      },
+      "id": "way/39349063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/49041429",
+        "barrier": "fence",
+        "castle_type": "fortress",
+        "fee": "no",
+        "historic": "castle",
+        "name": "Cetatea Aiudului",
+        "name:en": "Aiud Citadel",
+        "name:hu": "Nagyenyedi vár",
+        "name:ro": "Cetatea Aiudului",
+        "tourism": "attraction",
+        "wikipedia": "ro:Cetatea Aiudului",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.717613,
+          46.3096568
+        ]
+      },
+      "id": "way/49041429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/74301876",
+        "addr:city": "Făgăraș",
+        "alt_name": "Muzeul Cetății",
+        "barrier": "city_wall",
+        "historic": "castle",
+        "name": "Cetatea Făgărașului",
+        "name:en": "Făgăraș Citadel",
+        "tourism": "attraction",
+        "website": "http://muzeufagaras.ro/cetatea_fagarasului.html",
+        "wikidata": "Q1002426",
+        "wikipedia": "en:Făgăraș Citadel",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9739341,
+          45.8451684
+        ]
+      },
+      "id": "way/74301876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/76914269",
+        "building": "yes",
+        "building:levels": "3",
+        "castle_type": "palace",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Palatul Romanit",
+        "ref:RO:lmi": "B-II-m-B-19869",
+        "wikidata": "Q61081185",
+        "wikipedia": "ro:Palatul Romanit",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0911684,
+          44.4447292
+        ]
+      },
+      "id": "way/76914269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/80192188",
+        "addr:city": "București",
+        "addr:country": "RO",
+        "addr:housenumber": "147-153",
+        "addr:postcode": "050892",
+        "addr:street": "Calea Rahovei",
+        "architect": "Anton Shuckerl",
+        "building": "yes",
+        "building:architecture": "eclectic",
+        "building:levels": "4",
+        "castle_type": "palace",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Palatul Bragadiru",
+        "old_name": "Casa de Cultură Lenin",
+        "ref:RO:lmi": "B-II-m-B-19501",
+        "start_date": "1898",
+        "website": "https://www.palatulbragadiru.ro/",
+        "wikidata": "Q18545110",
+        "wikimedia_commons": "Category:Palatul Bragadiru",
+        "wikipedia": "ro:Palatul Bragadiru",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0871226,
+          44.4215339
+        ]
+      },
+      "id": "way/80192188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/87337570",
+        "alt_name": "Castelul Bethlen",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Castelul Magna Curia",
+        "wikipedia": "ro:Magna Curia",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8984039,
+          45.8860077
+        ]
+      },
+      "id": "way/87337570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98098076",
+        "addr:city": "Hodod",
+        "building": "yes",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Conacul Deigenfield",
+        "name:hu": "Degenfeld-kastély",
+        "name:ro": "Conacul Deigenfield",
+        "source": "bing",
+        "tourism": "attraction",
+        "wikidata": "Q43123349",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.0256661,
+          47.4033469
+        ]
+      },
+      "id": "way/98098076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98881144",
+        "addr:city": "Cisnădie",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "protestant",
+        "historic": "castle",
+        "name": "Biserica Evanghelică",
+        "religion": "christian",
+        "wikidata": "Q18539023",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1513978,
+          45.7131892
+        ]
+      },
+      "id": "way/98881144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/99772597",
+        "addr:city": "Carani",
+        "building": "yes",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Castelul Mercy din Carani",
+        "name:hu": "Mercy-kastély",
+        "note": "Numele îi vine de la contele Claudius Florimund Mercy, numit guvernator al Banatului dupa Pacea de la Passarowitz, când Imperiul Otoman cedează Imperiului Habsburgic teritoriile cucerite. Contele Mercy, și-a construit la Carani o reședință secundară.",
+        "ref:RO:lmi": "TM-II-m-A-06192",
+        "start_date": "1733..1734",
+        "wikidata": "Q12723629",
+        "wikipedia": "ro:Castelul Mercy din Carani",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1496991,
+          45.9131546
+        ]
+      },
+      "id": "way/99772597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/102780052",
+        "access": "no",
+        "addr:city": "București",
+        "addr:country": "RO",
+        "addr:housename": "Palatul Elisabeta",
+        "addr:housenumber": "28",
+        "addr:postcode": "011347",
+        "addr:street": "Șoseaua Pavel Dimitrievici Kiseleff",
+        "building": "residential",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Palatul Elisabeta",
+        "website": "https://familiaregala.ro/ro/resedinte/prezentare-2/palatul-elisabeta/",
+        "wikidata": "Q5356931",
+        "wikimedia_commons": "Category:Elisabeta Palace, Bucharest",
+        "wikipedia": "en:Elisabeta Palace",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0796056,
+          44.4707051
+        ]
+      },
+      "id": "way/102780052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/113550043",
+        "addr:housenumber": "2",
+        "addr:postcode": "700503",
+        "addr:street": "Aleea Ghica Vodă",
+        "historic": "castle",
+        "name": "Palatul Oștirii din Iași",
+        "website": "www.bg15mc.ro",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.565454,
+          47.1808897
+        ]
+      },
+      "id": "way/113550043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129316970",
+        "building": "yes",
+        "building:levels": "3",
+        "castle_type": "palace",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Palatul Suțu",
+        "ref:RO:lmi": "B-II-m-A-18221",
+        "wikidata": "Q12404278",
+        "wikipedia": "ro:Palatul Suțu",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1022056,
+          44.4347486
+        ]
+      },
+      "id": "way/129316970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/131269864",
+        "addr:city": "București",
+        "addr:housenumber": "151",
+        "addr:postcode": "010991",
+        "addr:street": "Calea Victoriei",
+        "building": "yes",
+        "building:levels": "2",
+        "castle_type": "palace",
+        "historic": "castle",
+        "image": "https://photos.app.goo.gl/Mjsm3FTxpE18dqJK8",
+        "name": "Casa Filipescu-Cesianu",
+        "roof:shape": "quadruple_saltbox",
+        "wikidata": "Q42772330",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0871262,
+          44.4502639
+        ]
+      },
+      "id": "way/131269864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/131269872",
+        "addr:city": "București",
+        "addr:housenumber": "107",
+        "addr:street": "Calea Victoriei",
+        "building": "yes",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "Palatul Știrbei",
+        "ref:RO:lmi": "B-II-m-A-19860",
+        "wikidata": "Q26257349",
+        "wikipedia": "ro:Palatul Știrbei din București",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0917635,
+          44.443727
+        ]
+      },
+      "id": "way/131269872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/132318311",
+        "addr:city": "Adamclisi",
+        "barrier": "city_wall",
+        "castle_type": "castrum",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name": "Cetatea romană Adamclisi",
+        "name:en": "Civitas Tropaensium",
+        "old_name": "Tropaeum Traiani",
+        "ref:RO:lmi": "CT-I-m-A-02567.01",
+        "tourism": "attraction",
+        "wikidata": "Q5124784",
+        "wikipedia": "en:Civitas Tropaensium",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9438078,
+          44.0918935
+        ]
+      },
+      "id": "way/132318311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/133603949",
+        "access": "permit",
+        "addr:city": "Bacău",
+        "addr:housenumber": "2",
+        "addr:street": "Calea Mărășești",
+        "building": "yes",
+        "castle_type": "palace",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Palatul Administrativ",
+        "name:en": "Administrative Palace of Bacău",
+        "name:ro": "Palatul Administrativ din Bacăului",
+        "ref:RO:lmi": "BC-II-m-A-00773",
+        "wikidata": "Q20432040",
+        "wikipedia": "ro:Palatul Administrativ din Bacău",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9116139,
+          46.5641897
+        ]
+      },
+      "id": "way/133603949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/136882543",
+        "building": "yes",
+        "historic": "castle",
+        "historic:civilization": "modern",
+        "name": "Castelul regal de la Săvârșin",
+        "note": "Castelul regal de la Săvârșin se află în satul cu același nume și a fost construit între anii 1650-1680 de familia nobiliară Forray.",
+        "start_date": "1650..1680",
+        "wikidata": "Q7666962",
+        "wikipedia": "ro:Castelul regal de la Săvârșin",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2356908,
+          46.015449
+        ]
+      },
+      "id": "way/136882543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/164369116",
+        "addr:city": "București",
+        "addr:housenumber": "56",
+        "addr:postcode": "010083",
+        "addr:street": "Calea Victoriei",
+        "brand": "Continental Hotels",
+        "brand:wikipedia": "en:Continental Hotels",
+        "building": "hotel",
+        "building:colour": "white",
+        "building:levels": "4",
+        "castle_type": "palace",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Grand Hotel Continental",
+        "ref:RO:lmi": "B-II-m-B-19858",
+        "roof:colour": "silver",
+        "roof:levels": "1",
+        "roof:shape": "quadruple_saltbox",
+        "stars": "5",
+        "start_date": "sf. sec XIX",
+        "tourism": "hotel",
+        "website": "https://grand-hotel-continental-bucuresti.continentalhotels.ro/en",
+        "wheelchair": "limited",
+        "wikidata": "Q42772296",
+        "wikimedia_commons": "Category:Continental Hotel, Bucharest",
+        "wikipedia": "ro:Grand Hotel Continental",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0981593,
+          44.4370222
+        ]
+      },
+      "id": "way/164369116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/169490991",
+        "building": "yes",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Ansamblul castelului Wesselényi din Jibou",
+        "name:hu": "Zsibói Wesselényi kastély épületegyüttes",
+        "name:ro": "Ansamblul castelului Wesselényi din Jibou",
+        "wikidata": "Q18537444",
+        "wikipedia": "ro:Ansamblul castelului Wesselényi din Jibou",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.2534857,
+          47.2628961
+        ]
+      },
+      "id": "way/169490991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/173670061",
+        "alt_name": "Rapsonné vára",
+        "historic": "castle",
+        "name": "Rapsóné vára",
+        "ruins": "yes",
+        "tourism": "attraction",
+        "wikipedia": "hu:Rapsóné vára",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1886101,
+          46.5840903
+        ]
+      },
+      "id": "way/173670061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/173929238",
+        "addr:city": "Iași",
+        "addr:housenumber": "1",
+        "addr:postcode": "700019",
+        "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+        "addr:street": "Strada Palat",
+        "building:levels": "2",
+        "historic": "castle",
+        "name": "Palatul Culturii",
+        "phone": "040232275979",
+        "website": "https://palatulculturii.ro/",
+        "wheelchair": "yes",
+        "wikidata": "Q2522104",
+        "wikipedia": "ro:Palatul Culturii din Iași",
+        "wikipedia:en": "Palace of Culture (Iași)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5869164,
+          47.1572934
+        ]
+      },
+      "id": "way/173929238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/175996705",
+        "building": "residential",
+        "castle_type": "stately",
+        "historic": "castle",
+        "image": "https://photos.app.goo.gl/Wy1pw2kLjHQxcyQy9",
+        "name": "Castelul Károlyi",
+        "name:en": "Károlyi Castle",
+        "name:hu": "Károlyi kastély",
+        "name:ro": "Castelul Károlyi",
+        "tourism": "attraction",
+        "wikidata": "Q21850180",
+        "wikipedia": "hu:Károlyi-kastély (Nagykároly)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.467324,
+          47.6837936
+        ]
+      },
+      "id": "way/175996705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/179112729",
+        "barrier": "city_wall",
+        "historic": "castle",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4465556,
+          45.6996833
+        ]
+      },
+      "id": "way/179112729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/179213931",
+        "area": "yes",
+        "historic": "castle",
+        "landuse": "village_green",
+        "name": "Biserica Fortificată din Vulcan",
+        "name:de": "Kirchenburg Wolkendorf",
+        "name:en": "The Fortified Church of Vulcan",
+        "name:ro": "Biserica Fortificată",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4213247,
+          45.6332395
+        ]
+      },
+      "id": "way/179213931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/181342002",
+        "castle_type": "castrum",
+        "end_date": "~0300",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name": "Castrul roman Cumidava",
+        "name:de": "Kastell Râșnov",
+        "name:en": "Castra Cumidava",
+        "name:ro": "Castrul roman Cumidava",
+        "ruins": "yes",
+        "start_date": "~0110",
+        "tourism": "attraction",
+        "wikidata": "Q613565",
+        "wikipedia": "ro:Castrul roman Cumidava",
+        "wikipedia:de": "Kastell Râșnov",
+        "wikipedia:en": "Cumidava (castra)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4415059,
+          45.6187418
+        ]
+      },
+      "id": "way/181342002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/183696048",
+        "building": "yes",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Castelul Posada",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6197048,
+          45.2830761
+        ]
+      },
+      "id": "way/183696048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/190653999",
+        "alt_name": "Fortăreața Oradea",
+        "barrier": "city_wall",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "Cetatea Oradea",
+        "name:en": "Oradea Fortress",
+        "name:hu": "Vár",
+        "source": "local info, survey",
+        "tourism": "attraction",
+        "wikidata": "Q12723866",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.942771,
+          47.0515925
+        ]
+      },
+      "id": "way/190653999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/202167715",
+        "building": "yes",
+        "building:levels": "2",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Castelul Mitropolitan",
+        "name:hu": "Bagdi-kastély",
+        "name:ro": "Castelul Mitropolitan",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.9199565,
+          46.1737632
+        ]
+      },
+      "id": "way/202167715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/206305822",
+        "access": "customers",
+        "castle_type": "castrum",
+        "end_date": "~0400",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name": "Castrul Roman Porolissum",
+        "name:ro": "Castrul Roman Porolissum",
+        "start_date": "~0106",
+        "tourism": "attraction",
+        "wikidata": "Q542391",
+        "wikipedia": "ro:Porolissum",
+        "wikipedia:de": "Porolissum",
+        "wikipedia:en": "Porolissum",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1571981,
+          47.1791339
+        ]
+      },
+      "id": "way/206305822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/209206172",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Castelul Grecilor",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5967448,
+          47.1195214
+        ]
+      },
+      "id": "way/209206172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/211764618",
+        "building": "residential",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Castelul Jósika",
+        "name:hu": "Jósika-kastély",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6619361,
+          46.499831
+        ]
+      },
+      "id": "way/211764618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/212386737",
+        "building": "yes",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Castelul Teleki",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.868267,
+          46.3933409
+        ]
+      },
+      "id": "way/212386737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/213105836",
+        "building": "yes",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Castelul Bánffy",
+        "name:hu": "Bánffy-kastély",
+        "name:ro": "Castelul Bánffy",
+        "website": "https://castelsancrai.ro/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7392234,
+          46.2895666
+        ]
+      },
+      "id": "way/213105836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/218925844",
+        "alt_name:en": "Castra of Cigmău",
+        "alt_name:ro": "Castrul roman de la Cigmău",
+        "castle_type": "castrum",
+        "end_date": "~0300",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name": "Castra Germisara",
+        "name:ro": "Castrul roman Germisara",
+        "ruins": "yes",
+        "start_date": "~0110",
+        "tourism": "attraction",
+        "wikidata": "Q612921",
+        "wikipedia": "ro:Castrul roman Germisara",
+        "wikipedia:de": "Kastell Cigmău",
+        "wikipedia:en": "Germisara (castra)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.190388,
+          45.8938656
+        ]
+      },
+      "id": "way/218925844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/219939094",
+        "castle_type": "castrum",
+        "ele": "460",
+        "historic": "castle",
+        "is_in": "Romania",
+        "name:de": "Kastell Hoghiz",
+        "name:en": "Castra of Hoghiz",
+        "name:ro": "Castrul roman de la Hoghiz",
+        "ruins": "yes",
+        "tourism": "attraction",
+        "wikipedia": "ro:Castrul roman de la Hoghiz",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2790769,
+          45.9780343
+        ]
+      },
+      "id": "way/219939094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/220423041",
+        "building": "yes",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Castelul Kövér-Appel",
+        "name:hu": "Kövér-Appel-kastély",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3797094,
+          46.1238472
+        ]
+      },
+      "id": "way/220423041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/220843954",
+        "addr:city": "Cuci",
+        "building": "yes",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Castelul Degenfeld",
+        "name:hu": "Degenfeld-kastély",
+        "name:ro": "Castelul Degenfeld",
+        "wikidata": "Q25461947",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1592642,
+          46.4669971
+        ]
+      },
+      "id": "way/220843954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/221466490",
+        "building": "yes",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Castelul Teleki",
+        "name:hu": "Teleki-kastély",
+        "wikipedia": "hu:Teleki-kastély (Marossárpatak)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6090665,
+          46.6540781
+        ]
+      },
+      "id": "way/221466490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/221480684",
+        "building": "yes",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "Palatul Neumann",
+        "name:hu": "Neumann-palota",
+        "wikidata": "Q13652730",
+        "wikipedia": "hu:Neumann-palota (Arad);ro:Palatul Neumann din Arad",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3171776,
+          46.1754436
+        ]
+      },
+      "id": "way/221480684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/223001754",
+        "building": "ruins",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Ruinele Castelului Huszar",
+        "name:en": "Ruins of Huszár Castle",
+        "name:hu": "Huszár kastély romjai",
+        "ruins": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6920686,
+          46.7528277
+        ]
+      },
+      "id": "way/223001754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/228886054",
+        "access": "yes",
+        "castle_type": "castrum",
+        "end_date": "~0400",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name": "Castra of Buciumi",
+        "name:en": "Castra of Buciumi",
+        "name:ro": "Castrul roman de la Buciumi",
+        "start_date": "~0106",
+        "tourism": "attraction",
+        "wikidata": "Q499806",
+        "wikipedia": "ro:Castrul roman de la Buciumi",
+        "wikipedia:de": "Kastell Buciumi",
+        "wikipedia:en": "Castra of Buciumi",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.0446503,
+          47.0482065
+        ]
+      },
+      "id": "way/228886054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/228915438",
+        "access": "yes",
+        "building": "yes",
+        "castle_type": "castrum",
+        "end_date": "~0700",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "name": "Castrul Sucidava",
+        "name:en": "Castra Sucidava",
+        "name:ro": "Castrul roman Sucidava",
+        "ruins": "yes",
+        "start_date": "0101",
+        "tourism": "attraction",
+        "wikidata": "Q1309649",
+        "wikipedia": "ro:Sucidava",
+        "wikipedia:de": "Sucidava",
+        "wikipedia:en": "Sucidava",
+        "wikipedia:ru": "Суцидава",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4595227,
+          43.7642805
+        ]
+      },
+      "id": "way/228915438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231044575",
+        "addr:city": "Macea",
+        "addr:country": "RO",
+        "addr:housename": "Castelul Cernovici",
+        "addr:postcode": "317210",
+        "alt_name": "Castelul Csernovics",
+        "building": "castle",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Castelul Cernovici",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3101556,
+          46.3844255
+        ]
+      },
+      "id": "way/231044575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231502398",
+        "castle_type": "castrum",
+        "end_date": "~0400",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name": "Castra Jidava",
+        "name:ro": "Castrul roman Jidava",
+        "start_date": "~0200",
+        "tourism": "attraction",
+        "wikidata": "Q12723650",
+        "wikipedia": "ro:Castrul roman Jidava",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0124721,
+          45.2207633
+        ]
+      },
+      "id": "way/231502398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/232472401",
+        "building": "civic",
+        "building:levels": "4",
+        "castle_type": "palace",
+        "height": "12",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "image": "https://photos.app.goo.gl/6VCFUedUiekyQ3AU9",
+        "internet_access": "wlan",
+        "layer": "1",
+        "name": "Palatul Regal",
+        "name:bg": "Кралският дворец",
+        "name:cs": "Královský Palác",
+        "name:de": "Königliches Schloss",
+        "name:el": "Βασιλικό Ανάκτορο",
+        "name:en": "Royal Palace",
+        "name:es": "Palacio Real",
+        "name:fr": "Palais Royal",
+        "name:he": "הארמון המלכותי",
+        "name:hu": "Királyi Palota",
+        "name:it": "Palazzo Reale",
+        "name:ja": "王宮",
+        "name:ko": "왕궁",
+        "name:pl": "Pałac Królewski",
+        "name:pt": "Palácio Real",
+        "name:ro": "Palatul Regal",
+        "name:tr": "Kraliyet Sarayı",
+        "name:uk": "Королівський палац",
+        "name:zh": "皇宫",
+        "opening_hours": "Tu 10:00-18:00",
+        "ref:RO:lmi": "B-II-m-A-19856",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "start_date": "1928",
+        "tourism": "attraction",
+        "wheelchair": "limited",
+        "wikidata": "Q3361220",
+        "wikimedia_commons": "Category:Royal Palace, Bucharest",
+        "wikipedia": "ro:Palatul Regal din București",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.095863,
+          44.4394889
+        ]
+      },
+      "id": "way/232472401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/233236934",
+        "SIRUTA:code": "146272",
+        "addr:city": "Suceava",
+        "addr:postcode": "720028",
+        "alt_name": "Cetatea Sucevei",
+        "alt_name:en": "Suceava Fortress",
+        "building": "yes",
+        "castle_type": "fortress",
+        "codul_entității_muzeale": "6968507.0",
+        "description:ro": "Ridicata de Petru I Musat (1375 - 1391), atestata documentar la 10/11 februarie 1388;constructii ulterioare din timpul domnitorilor Alexandru cel Bun (1400-1432), stefan cel Mare (1457 - 1504), Vasile Lupu (1634 - 1653).",
+        "historic": "castle",
+        "museum_type": "Site Museum",
+        "name": "Cetatea de Scaun a Sucevei",
+        "name:en": "Princely Court of Suceava",
+        "name:pl": "Zamek w Suczawie",
+        "opening_hours": "Apr-Sep 08:00-20:00; Oct-Mar 09:00-17:00; Mo closed",
+        "phone": "0230/216.439",
+        "start_date": "C14",
+        "website": "https://muzeulbucovinei.ro/mnb/obiective-culturale/cetatea-de-scaun-a-sucevei",
+        "wikidata": "Q4463736",
+        "wikipedia": "ro:Cetatea de Scaun a Sucevei",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2703121,
+          47.6448482
+        ]
+      },
+      "id": "way/233236934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/240812489",
+        "castle_type": "castrum",
+        "end_date": "~0450",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name": "Castrum Resculum",
+        "ruins": "yes",
+        "start_date": "~0110",
+        "tourism": "attraction",
+        "wikidata": "Q499798",
+        "wikipedia": "ro:Castrul roman Resculum",
+        "wikipedia:de": "Kastell Bologa",
+        "wikipedia:en": "Resculum (castra)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.884621,
+          46.8856643
+        ]
+      },
+      "id": "way/240812489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/240857811",
+        "castle_type": "castrum",
+        "end_date": "~0300",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name": "Angustia",
+        "ruins": "yes",
+        "source": "https://legiregesz.blog.hu/2010/03/11/erdelyi_teluto_1",
+        "start_date": "~0106",
+        "tourism": "attraction",
+        "wikidata": "Q612993",
+        "wikipedia": "ro:Castrul roman Angustia",
+        "wikipedia:de": "Kastell Brețcu",
+        "wikipedia:en": "Angustia (castra)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.3128899,
+          46.0509451
+        ]
+      },
+      "id": "way/240857811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/240858750",
+        "castle_type": "castrum",
+        "end_date": "~0300",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name": "Castrul roman de la Reci",
+        "name:hu": "Római Castrum",
+        "source": "http://legiregesz.blog.hu/media/image/20100311_erd%C3%A9ly/Komoll%C3%B3.jpg",
+        "start_date": "~0106",
+        "tourism": "attraction",
+        "wikidata": "Q612820",
+        "wikipedia": "en:Castra of Reci",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9003352,
+          45.8439515
+        ]
+      },
+      "id": "way/240858750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/241917530",
+        "barrier": "wall",
+        "castle_type": "castrum",
+        "end_date": "~0400",
+        "height": "-0,1",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name": "Apulum",
+        "ruins": "yes",
+        "start_date": "~0107",
+        "wikidata": "Q774266",
+        "wikipedia": "ro:Castrul roman Apulum",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5731603,
+          46.0683093
+        ]
+      },
+      "id": "way/241917530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/242580048",
+        "access": "customers",
+        "addr:city": "Sinaia",
+        "building": "yes",
+        "castle_type": "manor",
+        "historic": "castle",
+        "image": "https://photos.app.goo.gl/GKtL4cjPLyek9rxTA",
+        "name": "Castelul Pelișor",
+        "name:en": "Pelișor Castle",
+        "name:it": "Castello Pelisor",
+        "name:ru": "Замок Пелишор",
+        "tourism": "attraction",
+        "wikidata": "Q2561653",
+        "wikipedia": "ro:Castelul Pelișor",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5392238,
+          45.3606015
+        ]
+      },
+      "id": "way/242580048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/245590656",
+        "addr:city": "Bușteni",
+        "addr:housenumber": "1",
+        "addr:postcode": "105500",
+        "addr:street": "Strada Zamorei",
+        "architect": "Grigore Cerchez",
+        "architect:wikipedia": "ro:Grigore Cerchez",
+        "building": "yes",
+        "castle_type": "palace",
+        "email": "office@cantacuzinocastle.ro",
+        "fax": "+40 244 320 410",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Castelul Cantacuzino",
+        "opening_hours": "Mo-Th 10:00-19:00; Fr-Su 10:00-20:00",
+        "phone": "+40 244 320 510",
+        "ref:RO:lmi": "PH-II-a-A-16386",
+        "source": "Bing, Survey (july 2014)",
+        "start_date": "1911",
+        "tourism": "attraction",
+        "website": "https://www.cantacuzinocastle.com/",
+        "wikidata": "Q5033525",
+        "wikipedia": "ro:Castelul Cantacuzino din Bușteni",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5429231,
+          45.4139495
+        ]
+      },
+      "id": "way/245590656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/250799610",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Palatul Sturdza",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2372019,
+          47.1505119
+        ]
+      },
+      "id": "way/250799610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/253307150",
+        "amenity": "cafe",
+        "building": "yes",
+        "castle_type": "tower",
+        "historic": "castle",
+        "name": "Castelul Fermecat",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8100433,
+          44.3010527
+        ]
+      },
+      "id": "way/253307150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/256169771",
+        "SIRUTA:code": "14058",
+        "addr:city": "Arefu",
+        "addr:postcode": "117042",
+        "alt_name": "Cetatea Poienari",
+        "alt_name:en": "Poienari Castle",
+        "barrier": "city_wall",
+        "castle_type": "fortress",
+        "charge": "30 RON",
+        "fee": "yes",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "image": "https://photos.app.goo.gl/rWzLKiPXFnuAhVNUA",
+        "museum_type": "Site Museum",
+        "name": "Cetatea Poenari",
+        "name:ca": "Castell de Poenari",
+        "name:en": "Poenari Castle",
+        "name:hu": "Poenari-vár",
+        "opening_hours": "Mo-Su 9:00-18:00",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "0248/721.446",
+        "ref:RO:lmi": "AG-II-a-A-13507",
+        "ruins": "yes",
+        "tourism": "attraction",
+        "url": "https://youtu.be/AHJ0ugAKtTw?si=RKFSwmZujwhe7naG",
+        "wikidata": "Q1013551",
+        "wikipedia": "en:Poenari Castle",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.635215,
+          45.3539036
+        ]
+      },
+      "id": "way/256169771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/259338535",
+        "castle_type": "castrum",
+        "end_date": "~0450",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name:de": "Kastell Vețel",
+        "name:en": "Castra Micia",
+        "name:ro": "Castrul roman Micia",
+        "ruins": "yes",
+        "start_date": "~0106",
+        "tourism": "attraction",
+        "wikidata": "Q1309590",
+        "wikipedia": "ro:Castrul roman Micia",
+        "wikipedia:de": "Kastell Vețel",
+        "wikipedia:en": "Micia (castra)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8154953,
+          45.9119833
+        ]
+      },
+      "id": "way/259338535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/261801651",
+        "amenity": "community_centre",
+        "building": "yes",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Castelul Nako",
+        "name:en": "Nako Castle",
+        "name:hu": "Nákó-kastély",
+        "source": "Cerere legea 544/2001",
+        "wikidata": "Q12723632",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.6262391,
+          46.0711043
+        ]
+      },
+      "id": "way/261801651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/264721095",
+        "addr:city": "Târgu Neamț",
+        "area": "yes",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "Cetatea Neamțului",
+        "source": "Bing, survey",
+        "tourism": "attraction",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.3434503,
+          47.2143949
+        ]
+      },
+      "id": "way/264721095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/264820351",
+        "castle_type": "castrum",
+        "end_date": "~0300",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name": "Castrul roman de la Sfârleanca",
+        "name:de": "Kastell Sfârleanca",
+        "name:en": "Castra of Sfârleanca",
+        "name:ro": "Castrul roman de la Sfârleanca",
+        "start_date": "~0110",
+        "tourism": "attraction",
+        "wikidata": "Q5050749",
+        "wikipedia": "en:Castra of Sfârleanca",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0130414,
+          45.0915603
+        ]
+      },
+      "id": "way/264820351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/264948147",
+        "castle_type": "castrum",
+        "end_date": "~0300",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name:de": "Kastell Ilișua",
+        "name:ro": "Castrul roman Arcobara",
+        "start_date": "~0106",
+        "tourism": "attraction",
+        "wikidata": "Q499818",
+        "wikipedia": "de:Kastell Ilișua",
+        "wikipedia:en": "Arcobara (castra)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0917164,
+          47.2107896
+        ]
+      },
+      "id": "way/264948147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/266554383",
+        "barrier": "city_wall",
+        "building": "yes",
+        "castle_type": "defensive",
+        "end_date": "110",
+        "historic": "castle",
+        "historic:civilization": "dacian",
+        "layer": "1",
+        "material": "wood",
+        "start_date": "~100 BC",
+        "wikidata": "Q739802",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3080251,
+          45.6203484
+        ]
+      },
+      "id": "way/266554383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/270789259",
+        "3dr:height1": "2",
+        "building": "yes",
+        "building:colour": "#ffffff",
+        "building:material": "stone",
+        "castle_type": "tower",
+        "height": "11",
+        "historic": "castle",
+        "name": "Turnul Negru",
+        "name:de": "Schwarzer Turm",
+        "name:en": "Black Tower",
+        "name:hu": "Fekete torony",
+        "roof:material": "glass",
+        "roof:shape": "pyramidal",
+        "source": "Bing, survey",
+        "wikidata": "Q750784",
+        "wikipedia": "ro:Turnul Negru din Brașov",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5856401,
+          45.6412814
+        ]
+      },
+      "id": "way/270789259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/279414143",
+        "castle_type": "castrum",
+        "end_date": "~0300",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name:en": "Castra Centum Putei",
+        "name:ro": "Castrul roman Centum Putei",
+        "start_date": "~0106",
+        "tourism": "attraction",
+        "wikidata": "Q5063064",
+        "wikipedia": "en:Centum Putei (castra)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5997701,
+          45.2734892
+        ]
+      },
+      "id": "way/279414143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/279449759",
+        "castle_type": "castrum",
+        "end_date": "~0300",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name:de": "Kastell Cornuțel",
+        "name:ro": "Castrul roman Caput Bubali",
+        "start_date": "~0106",
+        "tourism": "attraction",
+        "wikidata": "Q5037143",
+        "wikipedia": "de:Kastell Cornuțel",
+        "wikipedia:en": "Caput Bubali (castra)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0854564,
+          45.4220414
+        ]
+      },
+      "id": "way/279449759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/279454530",
+        "castle_type": "castrum",
+        "end_date": "~0300",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name:de": "Kastell Fârliung",
+        "name:ro": "Castrul roman Aizis",
+        "start_date": "~0106",
+        "tourism": "attraction",
+        "wikidata": "Q4699436",
+        "wikipedia": "en:Aizis (castra)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8585894,
+          45.5046237
+        ]
+      },
+      "id": "way/279454530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/279457391",
+        "castle_type": "castrum",
+        "end_date": "~0300",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name:de": "Kastell Berzobia",
+        "name:ro": "Castrul roman Berzobia",
+        "start_date": "~0106",
+        "tourism": "attraction",
+        "wikidata": "Q3638972",
+        "wikipedia": "en:Bersobis (castra)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6233006,
+          45.4281182
+        ]
+      },
+      "id": "way/279457391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/279462003",
+        "castle_type": "castrum",
+        "end_date": "~0300",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name:en": "Castra Arcidava",
+        "name:ro": "Castrul roman Arcidava",
+        "start_date": "~0106",
+        "tourism": "attraction",
+        "wikidata": "Q15187366",
+        "wikipedia": "en:Arcidava (castra)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5517573,
+          45.0792383
+        ]
+      },
+      "id": "way/279462003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/282070083",
+        "castle_type": "castrum",
+        "end_date": "~0400",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name:hu": "Római erőd maradványai",
+        "name:ro": "Castrul roman de la Odorheiu Secuiesc",
+        "start_date": "~0120",
+        "tourism": "attraction",
+        "wikidata": "Q612792",
+        "wikipedia": "ro:Castrul roman de la Odorheiu Secuiesc",
+        "wikipedia:de": "Kastell Odorheiu Secuiesc",
+        "wikipedia:en": "Castra of Odorheiu Secuiesc",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2962676,
+          46.3057012
+        ]
+      },
+      "id": "way/282070083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/282445918",
+        "castle_type": "castrum",
+        "end_date": "~0700",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "name": "Castrul roman de la Tihău",
+        "name:en": "Castra of Tihău",
+        "name:ro": "Castrul roman de la Tihău",
+        "ruins": "yes",
+        "start_date": "0101",
+        "tourism": "attraction",
+        "wikidata": "Q499854",
+        "wikipedia": "ro:Castrul roman de la Tihău",
+        "wikipedia:de": "Kastell Tihău",
+        "wikipedia:en": "Castra of Tihău",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3352309,
+          47.2424741
+        ]
+      },
+      "id": "way/282445918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/282754066",
+        "castle_type": "castrum",
+        "end_date": "~0400",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name": "Castrul roman de la Bulci",
+        "name:en": "Castra of Bulci",
+        "name:ro": "Castrul roman de la Bulci",
+        "start_date": "~0110",
+        "tourism": "attraction",
+        "wikidata": "Q205567",
+        "wikipedia": "ro:Castrul roman de la Bulci",
+        "wikipedia:de": "Kastell Bulci",
+        "wikipedia:en": "Castra of Bulci",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0883858,
+          45.997851
+        ]
+      },
+      "id": "way/282754066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/287719006",
+        "addr:city": "Gornești",
+        "addr:housenumber": "479",
+        "addr:postcode": "547280",
+        "addr:street": "Strada Principală",
+        "building": "residential",
+        "castle_type": "stately",
+        "contact:website": "http://telekicastle.com/",
+        "height": "9",
+        "historic": "castle",
+        "name": "Castelul Teleki",
+        "name:hu": "Teleki-kastély",
+        "roof:height": "3",
+        "roof:material": "roof_tiles",
+        "roof:shape": "hipped",
+        "start_date": "1772",
+        "wikidata": "Q18538726",
+        "wikipedia": "hu:Teleki-kastély (Gernyeszeg)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.645416,
+          46.6695646
+        ]
+      },
+      "id": "way/287719006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/289450183",
+        "barrier": "city_wall",
+        "castle_type": "citadel",
+        "charge": "15 RON/întreg, 10 RON/redus (elevi, studenți, pensionari)",
+        "fee": "yes",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "material": "stone",
+        "name": "Cetatea din Câlnic",
+        "name:en": "Câlnic Citadel",
+        "name:ro": "Cetatea din Câlnic",
+        "opening_hours": "Tu-Su 10:00-13:00,14:00-18:00",
+        "phone": "+40 745 828 872, +40 787 598 400",
+        "ref:RO:lmi": "AB-II-a-A-00196",
+        "wikidata": "Q16744235",
+        "wikipedia": "ro:Cetatea din Câlnic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6604294,
+          45.8890368
+        ]
+      },
+      "id": "way/289450183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290671974",
+        "alt_name": "Cetatea Colțești",
+        "alt_name:en": "Colțești Citadel",
+        "building": "yes",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "name": "Cetatea Trascăului",
+        "name:en": "Trascău Citadel",
+        "name:hu": "Torockószentgyörgyi vár",
+        "name:ro": "Cetatea Trascăului",
+        "ruins": "yes",
+        "tourism": "attraction",
+        "wikipedia": "ro:Cetatea Trascăului",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5440837,
+          46.4247406
+        ]
+      },
+      "id": "way/290671974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/291301300",
+        "building": "yes",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Castelul Bethlen-Haller",
+        "tourism": "attraction",
+        "wikidata": "Q18538716",
+        "wikipedia": "ro:Castelul Bethlen-Haller din Cetatea de Baltă",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1735604,
+          46.2556676
+        ]
+      },
+      "id": "way/291301300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/292077918",
+        "access": "yes",
+        "building": "yes",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Clădirea Principală",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8101976,
+          46.9104425
+        ]
+      },
+      "id": "way/292077918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/295860830",
+        "access": "yes",
+        "addr:city": "Brașov",
+        "castle_type": "fortress",
+        "description": "Fortress.\nThe interior is momentarily closed for access.",
+        "historic": "castle",
+        "name": "Cetățuia Brașovului",
+        "opening_hours": "closed",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5920309,
+          45.6492902
+        ]
+      },
+      "id": "node/295860830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/296968566",
+        "building": "yes",
+        "designation": "LMI: AR-II-m-A-00639",
+        "historic": "castle",
+        "name": "Castelul Dietrich-Sukowsky - Consiliul Local Pâncota",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6874811,
+          46.3241973
+        ]
+      },
+      "id": "way/296968566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/304430204",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Castel Scânteia",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4050875,
+          46.3278466
+        ]
+      },
+      "id": "way/304430204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/316703303",
+        "building": "yes",
+        "castle_type": "mansion",
+        "historic": "castle",
+        "name": "Conacul Herepe",
+        "source": "primariaciugud.ro PUG2009 hires img",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6696811,
+          46.0811537
+        ]
+      },
+      "id": "way/316703303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/329664797",
+        "castle_type": "castrum",
+        "end_date": "~0400",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "level": "-1",
+        "name": "Samum",
+        "ruins": "yes",
+        "start_date": "~0107",
+        "wikidata": "Q499850",
+        "wikipedia": "ro:Castrul roman Samum",
+        "wikipedia:de": "Kastell Cășeiu",
+        "wikipedia:en": "Samum (castra)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8376494,
+          47.1862701
+        ]
+      },
+      "id": "way/329664797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/333039526",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Castelul Grofului",
+        "name:ro": "Castelul Grofului",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3691021,
+          47.5648126
+        ]
+      },
+      "id": "way/333039526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/342700297",
+        "historic": "castle",
+        "name": "Castelul Rhédey-Rothenthal",
+        "name:ru": "Castelul Rhédey-Rothenthal",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3560261,
+          46.3340668
+        ]
+      },
+      "id": "way/342700297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/342740062",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Zid fortificat",
+        "wikidata": "Q16749640",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0885325,
+          46.0548742
+        ]
+      },
+      "id": "way/342740062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/344077809",
+        "building": "yes",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "Castelul Botești",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1501929,
+          46.1804571
+        ]
+      },
+      "id": "way/344077809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/344752658",
+        "addr:city": "Zăbala",
+        "addr:postcode": "527190",
+        "building": "yes",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Castelul Mikes",
+        "name:hu": "Mikes-kastély",
+        "name:ro": "Castelul Mikes",
+        "wikidata": "Q16521855",
+        "wikipedia": "hu:Mikes-kastély (Zabola)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1990567,
+          45.8925311
+        ]
+      },
+      "id": "way/344752658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/345020668",
+        "building": "yes",
+        "ele": "643",
+        "historic": "castle",
+        "name": "Cetatea Ika",
+        "name:hu": "Ika vára",
+        "ruins": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9927921,
+          45.9923044
+        ]
+      },
+      "id": "way/345020668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/345215627",
+        "addr:city": "Enisala",
+        "area": "yes",
+        "barrier": "wall",
+        "building:condition": "average",
+        "castle_type": "fortress",
+        "description": "Fortress build by the Genoese merchants late in the XIII century., on the side of the VII century Byzantine fort.",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "historic:civilization": "medieval_christianity",
+        "name": "Cetatea Enisala",
+        "name:en": "Enisala Fortress",
+        "name:es": "Fortaleza de Enisala",
+        "name:pl": "Zamek Enisala (Heraclea)",
+        "name:ro": "Cetatea Enisala",
+        "ref:RO:lmi": "TL-I-m-A-05785.01",
+        "ruins": "yes",
+        "source": "Bing, survey",
+        "start_date": "C13",
+        "tourism": "attraction",
+        "website": "http://www.cetateaenisala.ro",
+        "wikidata": "Q18547950",
+        "wikimedia_commons": "Category:Enisala Castle",
+        "wikipedia": "ro:Situl arheologic „Cetatea Enisala”",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.835124,
+          44.8837499
+        ]
+      },
+      "id": "way/345215627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/365894500",
+        "building": "house",
+        "castle_type": "defensive",
+        "end_date": "110",
+        "historic": "castle",
+        "historic:civilization": "dacian",
+        "material": "stone",
+        "ruins": "yes",
+        "start_date": "~100 BC",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2229842,
+          45.8274012
+        ]
+      },
+      "id": "way/365894500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/365894501",
+        "barrier": "city_wall",
+        "building": "yes",
+        "castle_type": "defensive",
+        "end_date": "110",
+        "historic": "castle",
+        "historic:civilization": "dacian",
+        "material": "stone",
+        "ruins": "yes",
+        "start_date": "~100 BC",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2216337,
+          45.8275885
+        ]
+      },
+      "id": "way/365894501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/365894502",
+        "barrier": "gate",
+        "building": "yes",
+        "castle_type": "defensive",
+        "end_date": "110",
+        "historic": "castle",
+        "historic:civilization": "dacian",
+        "material": "stone",
+        "ruins": "yes",
+        "start_date": "~100 BC",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2222304,
+          45.8268626
+        ]
+      },
+      "id": "way/365894502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/365894503",
+        "barrier": "city_wall",
+        "building": "yes",
+        "castle_type": "defensive",
+        "end_date": "110",
+        "historic": "castle",
+        "historic:civilization": "dacian",
+        "material": "stone",
+        "ruins": "yes",
+        "start_date": "~100 BC",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2227739,
+          45.8274465
+        ]
+      },
+      "id": "way/365894503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/365894504",
+        "barrier": "gate",
+        "building": "yes",
+        "castle_type": "defensive",
+        "end_date": "110",
+        "historic": "castle",
+        "historic:civilization": "dacian",
+        "material": "stone",
+        "ruins": "yes",
+        "start_date": "~100 BC",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2222274,
+          45.8277986
+        ]
+      },
+      "id": "way/365894504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/365894505",
+        "barrier": "city_wall",
+        "building": "yes",
+        "castle_type": "defensive",
+        "end_date": "110",
+        "historic": "castle",
+        "historic:civilization": "dacian",
+        "material": "stone",
+        "ruins": "yes",
+        "start_date": "~100 BC",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2219625,
+          45.8273279
+        ]
+      },
+      "id": "way/365894505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/365895615",
+        "barrier": "gate",
+        "building": "yes",
+        "castle_type": "defensive",
+        "end_date": "110",
+        "historic": "castle",
+        "historic:civilization": "dacian",
+        "material": "stone",
+        "start_date": "~100 BC",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2212095,
+          45.8273991
+        ]
+      },
+      "id": "way/365895615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/368951668",
+        "building:part": "defense_tower",
+        "castle_type": "fortress;defensive",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "historic_1": "heritage",
+        "name": "Biserica fortificată din Movile",
+        "name:en": "Defense Tower of the Fortified Church of Movile",
+        "note": "15th Century (Source: Fabini 2002: Atlas der siebenbürgisch-sächsischen Kirchenburgen und Dorfkirchen Band 1)",
+        "ref:RO:lmi": "SB-II-a-B-12474",
+        "source": "bing;Lista_monumentelor_istorice_din_România_(LMI)_2015",
+        "wikidata": "Q1589177",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7918362,
+          46.0214147
+        ]
+      },
+      "id": "way/368951668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/369907116",
+        "addr:city": "Florești",
+        "building": "palace",
+        "castle_type": "palace",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Palatul Cantacuzino (Micul Trianon)",
+        "note": "Palatul Cantacuzino, supranumit și Palatul \"Micul Trianon\" a fost construit de către Nababul Gheorghe Grigore Cantacuzino pentru nepoata sa Alice, fata celui de-al treilea fiu al său, Mihail G. Cantacuzino.",
+        "ref:RO:lmi": "PH-II-m-A-16490.01",
+        "ruins": "yes",
+        "wikidata": "Q12305132",
+        "wikipedia": "ro:Palatul Cantacuzino (Florești)",
+        "year": "1913",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7933533,
+          45.0292465
+        ]
+      },
+      "id": "way/369907116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/369925608",
+        "building": "yes",
+        "historic": "castle",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5880868,
+          44.564388
+        ]
+      },
+      "id": "way/369925608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/369958061",
+        "area": "yes",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "Cetatea dacică Bănița",
+        "note": "Cetatea dacică Bănița este una dintre cele șase fortificații dacice din Munții Orăștiei și este parte din patrimoniul cultural mondial UNESCO.",
+        "ruins": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3132918,
+          45.4515062
+        ]
+      },
+      "id": "way/369958061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/369960102",
+        "area": "yes",
+        "castle_type": "castrum",
+        "historic": "castle",
+        "name": "Cetatea Feldioara",
+        "note": "Fortificația a fost ridicată în secolul al XIII-lea de către cavalerii teutoni. Astăzi construcția este în stare de ruină, dar se preconizează că fortificația va trece printr-un amplu proces de restaurare. Așezarea se află la 17 kilometri de Brașov.",
+        "wikidata": "Q12723859",
+        "wikipedia": "ro:Cetatea Feldioarei",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.606013,
+          45.8202347
+        ]
+      },
+      "id": "way/369960102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/369972497",
+        "addr:city": "Vințu de Jos",
+        "alt_name": "Ruinele Castelului Martinuzzi",
+        "area": "yes",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Ruina Castelului Martinuzzi",
+        "note": "Castelul Martinuzzi, cândva unul dintre cele mai frumoase castele în stil renascentist din țară, a fost ridicat la începutul sec. al XV-lea, după planurile arhitectului italian Domenico da Bologna, care a schițat și planurile pentru Cetatea Oradiei.",
+        "ref:RO:lmi": "AB-II-m-B-00394",
+        "ruins": "yes",
+        "start_date": "1550",
+        "wikidata": "Q21711428",
+        "wikipedia": "ro:Castelul Martinuzzi",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.4788487,
+          45.9969828
+        ]
+      },
+      "id": "way/369972497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/369972500",
+        "addr:city": "Banloc",
+        "building": "yes",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Castelul Banloc",
+        "name:en": "Banloc Castle",
+        "name:hu": "bánlaki Karátsonyi-kastély",
+        "note": "Ar fi fost (1552-1716) sediul pașei de la Timișoara. A fost reclădit în 1793 de contele Lázár Karátsonyi. După Primul Război Mondial ocupația sârbă aduce primele devastări. Este vândut reginei Elisabeta a Greciei, sora regelui Carol, care îl renovează.",
+        "ref:RO:lmi": "TM-II-a-A-06177",
+        "start_date": "1793",
+        "wikidata": "Q12723608",
+        "wikipedia": "ro:Castelul Banloc",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1382359,
+          45.3875887
+        ]
+      },
+      "id": "way/369972500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/369974255",
+        "addr:city": "Gheghie",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Castelul de vanatoare Zichy",
+        "note": "Este un frumos castel de vânătoare din sec. al XVIII-lea, declarat monument istoric. Închis turiștilor.",
+        "start_date": "1860",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5183622,
+          47.0160537
+        ]
+      },
+      "id": "way/369974255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/373949786",
+        "building": "yes",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Pekry-Radák kastély",
+        "name:ro": "Castelul Pekry-Radák",
+        "wikidata": "Q21848678",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1132252,
+          46.3559186
+        ]
+      },
+      "id": "way/373949786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/379927844",
+        "building": "yes",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Castelul Zichy",
+        "name:hu": "Zichy-kastély",
+        "tourism": "attraction",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3808659,
+          47.1446014
+        ]
+      },
+      "id": "way/379927844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/380541235",
+        "access": "yes",
+        "historic": "ruins",
+        "historic:civilization": "medieval",
+        "name": "Curtea Domnească",
+        "ruins": "castle",
+        "tourism": "attraction",
+        "wikidata": "Q12726121",
+        "wikipedia": "ro:Curtea Domnească din Hârlău"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8977816,
+          47.4259138
+        ]
+      },
+      "id": "node/380541235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/384017543",
+        "alt_name": "Stolzenburg",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "Cetatea din Slimnic",
+        "name:en": "Slimnic fortress",
+        "note": "Denkmal Identifizierungsnummer SB-II-m-A-12552",
+        "ruins": "castle",
+        "tourism": "attraction",
+        "wikidata": "Q18538880",
+        "wikipedia": "ro:Cetatea din Slimnic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.158936,
+          45.9196175
+        ]
+      },
+      "id": "way/384017543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397100796",
+        "castle_type": "fortress",
+        "changing_table": "no",
+        "historic": "castle",
+        "name": "Cetatea Giurgiu",
+        "name:bg": "Цитаделата на Мирча Стари",
+        "name:ro": "Cetatea Giurgiu",
+        "opening_hours": "24/7",
+        "reservation": "no",
+        "ruins": "yes",
+        "toilets": "no",
+        "toilets:wheelchair": "no",
+        "tourism": "attraction",
+        "wheelchair": "limited",
+        "wikidata": "Q18538883",
+        "wikipedia": "ro:Cetatea Giurgiu",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9619105,
+          43.8835698
+        ]
+      },
+      "id": "way/397100796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/405749049",
+        "building": "yes",
+        "historic": "castle",
+        "layer": "1",
+        "name": "Béla vár",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2969743,
+          46.6167353
+        ]
+      },
+      "id": "way/405749049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/417375221",
+        "historic": "ruins",
+        "name": "Cetatea Piatra Șoimului",
+        "name:hu": "Sólyomkő vára",
+        "ruins": "castle",
+        "source": "bing",
+        "tourism": "attraction",
+        "wikipedia": "hu:Sólyomkő vára",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3848059,
+          47.110617
+        ]
+      },
+      "id": "way/417375221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/420527738",
+        "addr:city": "București",
+        "addr:housenumber": "7",
+        "addr:street": "Strada Sfinților",
+        "building": "yes",
+        "castle_type": "palace",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Palatul Noblesse",
+        "ref:RO:lmi": "B-II-m-B-19685",
+        "wikidata": "Q42771286",
+        "wikipedia": "en:Noblesse Palace",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1078823,
+          44.435617
+        ]
+      },
+      "id": "way/420527738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/423122934",
+        "building": "apartments",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "Palatul Ullmann",
+        "name:hu": "Ullmann-palota",
+        "wikidata": "Q12737435",
+        "wikipedia": "hu:Ullmann-palota",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9337515,
+          47.0522169
+        ]
+      },
+      "id": "way/423122934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/423122939",
+        "alt_name": "Casa Füchsl",
+        "building": "apartments",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "Palatul Füchsl",
+        "name:hu": "Füchsl-palota",
+        "wikidata": "Q12723533",
+        "wikipedia": "hu:Füchsl-palota",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.932096,
+          47.0542219
+        ]
+      },
+      "id": "way/423122939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/439899494",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Cetatea Biharia",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9244027,
+          47.1676417
+        ]
+      },
+      "id": "way/439899494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449876341",
+        "addr:city": "Macea",
+        "addr:housename": "Castelul Cernovici",
+        "addr:postcode": "317210",
+        "alt_name": "Castelul Csernovics",
+        "amenity": "university",
+        "historic": "castle",
+        "name": "Castelul Cernovici - Universitatea de Vest „Vasile Goldiș”",
+        "wikidata": "Q12723617"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3102064,
+          46.3844298
+        ]
+      },
+      "id": "node/449876341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/451373183",
+        "building": "yes",
+        "height": "10",
+        "historic": "castle",
+        "name": "Castelul Bornemisza",
+        "name:en": "Bornemisza Castle",
+        "roof:height": "3",
+        "roof:material": "roof_tiles",
+        "roof:shape": "hipped",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6509353,
+          45.9347255
+        ]
+      },
+      "id": "way/451373183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/489418401",
+        "building": "house",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Conacul Szentiványi",
+        "name:hu": "Szentiványi udvarház",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.0978089,
+          46.9053738
+        ]
+      },
+      "id": "way/489418401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490058654",
+        "building": "yes",
+        "historic": "castle",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2607057,
+          45.6275527
+        ]
+      },
+      "id": "way/490058654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/493651856",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Castelul Haller",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3226766,
+          46.4471978
+        ]
+      },
+      "id": "way/493651856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/494833906",
+        "building": "yes",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "Palatul Princia Bethlen",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7176894,
+          46.3100193
+        ]
+      },
+      "id": "way/494833906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/513680191",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Donjonul Cheresig",
+        "name:hu": "Körösszegi vár",
+        "start_date": "C13",
+        "wikidata": "Q31092128",
+        "wikipedia": "hu:Körösszegi vár",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6678568,
+          47.0435271
+        ]
+      },
+      "id": "way/513680191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/525408088",
+        "castle_type": "castrum",
+        "historic": "castle",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "principate",
+        "name:de": "Kastell Costeşti",
+        "name:en": "Castra of Costeşti",
+        "name:ro": "Castrul roman de la Costești",
+        "ruins": "yes",
+        "wikidata": "Q5050725",
+        "wikipedia": "ro:Castrul roman de la Costeşti",
+        "wikipedia:en": "Castra of Costești",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.2099137,
+          45.6875905
+        ]
+      },
+      "id": "way/525408088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/525669469",
+        "area": "yes",
+        "historic": "castle",
+        "name": "Cetatea Dacică Costești-Blidaru",
+        "ruins": "yes",
+        "website": "https://whc.unesco.org/en/list/906",
+        "wikidata": "Q5175125",
+        "wikipedia:en": "Costești-Blidaru Dacian fortress",
+        "wikipedia:ro": "Cetatea dacică Costești-Blidaru",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1628597,
+          45.6677371
+        ]
+      },
+      "id": "way/525669469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/531250911",
+        "historic": "ruins",
+        "name": "Cetatea Piatra Șoimului - bastion",
+        "name:hu": "Sólyomkő vára - bástya",
+        "ruins": "castle",
+        "source": "bing",
+        "tourism": "attraction",
+        "wikipedia": "hu:Sólyomkő vára",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3876751,
+          47.1101803
+        ]
+      },
+      "id": "way/531250911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/544289942",
+        "addr:city": "Mărtiniș",
+        "building": "yes",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Conacul Ugron",
+        "name:hu": "Ugron-kúria",
+        "wikidata": "Q18539193",
+        "wikipedia": "hu:Ugron-kúria (Homoródszentmárton)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3914473,
+          46.2349813
+        ]
+      },
+      "id": "way/544289942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/550801067",
+        "building": "residential",
+        "castle_type": "manor",
+        "historic": "castle",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6803265,
+          46.391056
+        ]
+      },
+      "id": "way/550801067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/550933031",
+        "building": "yes",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Castelul Bánffy",
+        "name:hu": "Bánffy-kastély",
+        "name:ro": "Castelul Bánffy",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8575779,
+          46.2788147
+        ]
+      },
+      "id": "way/550933031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551428987",
+        "building": "yes",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Castelul Torockószentgyörgy",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.560423,
+          46.4227398
+        ]
+      },
+      "id": "way/551428987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551583245",
+        "addr:city": "București",
+        "addr:housenumber": "5-7",
+        "addr:street": "Strada Pictor Constantin Stahi",
+        "building": "yes",
+        "castle_type": "palace",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Palatul Nunțiaturii Apostolice a Sfântului Scaun din București",
+        "ref:RO:lmi": "B-II-m-A-19725",
+        "source": "survey",
+        "start_date": "1901",
+        "wikidata": "Q12737423",
+        "wikipedia": "ro:Palatul Nunțiaturii Apostolice a Sfântului Scaun din București",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0859418,
+          44.4391298
+        ]
+      },
+      "id": "way/551583245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/552086032",
+        "building": "yes",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Conacul Perky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2843816,
+          46.331861
+        ]
+      },
+      "id": "way/552086032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/555183449",
+        "building": "yes",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Conacul Mikes Szentkereszty",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1099118,
+          45.7686631
+        ]
+      },
+      "id": "way/555183449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/560348172",
+        "3dr:height1": "2",
+        "building": "yes",
+        "building:colour": "#ffffff",
+        "building:material": "plaster",
+        "castle_type": "tower",
+        "height": "14 m",
+        "historic": "castle",
+        "name": "Turnul Alb",
+        "name:de": "Weißer Turm",
+        "name:en": "White Tower",
+        "name:hu": "Fehér torony",
+        "name:pl": "Biała Wieża",
+        "roof:material": "tar_paper",
+        "roof:shape": "skillion",
+        "wikidata": "Q997089",
+        "wikipedia": "ro:Turnul Alb din Brașov",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5864925,
+          45.6428527
+        ]
+      },
+      "id": "way/560348172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/566779173",
+        "building": "yes",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Conacul Gáldtő",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6620792,
+          46.138555
+        ]
+      },
+      "id": "way/566779173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/583614926",
+        "addr:housenumber": "39",
+        "addr:street": "Calea Dorobanților",
+        "architect": "Louis Blanc",
+        "architect:wikipedia": "ro:Louis Blanc (arhitect)",
+        "building": "yes",
+        "building:architecture": "neo-renaissance",
+        "building:levels": "2",
+        "castle_type": "stately",
+        "description": "Casa Maria Lahovary a fost construită în 1889, în stilul neorenașterii franceze, de către arhitectul Louis Blanc, la cererea politicianului Ion M. Lahovary, tatăl prințesei Martha Bibescu.",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Casa Maria Lahovary",
+        "old_name": "Cambridge School of Bucharest",
+        "ref:RO:lmi": "B-II-m-B-18615",
+        "start_date": "1889",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0985517,
+          44.4488473
+        ]
+      },
+      "id": "way/583614926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/611631377",
+        "facebook": "https://www.facebook.com/pg/casteldumbraveni/posts/",
+        "historic": "castle",
+        "name": "Castelul Apaffi",
+        "name:hu": "Apaffy-kastély"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5774522,
+          46.2252328
+        ]
+      },
+      "id": "node/611631377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/645425195",
+        "contact:phone": "+40 745 295 925",
+        "historic": "castle",
+        "name": "Castelul Lăzarea",
+        "name:de": "Zitadelle Lázár",
+        "name:en": "Lázár Castle",
+        "name:hu": "Lázár-kastély",
+        "opening_hours": "Tu-Sa 10:00-14:00; Su \"on appointment\"",
+        "tourism": "attraction",
+        "wikidata": "Q6710829",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5305342,
+          46.7491901
+        ]
+      },
+      "id": "way/645425195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/665367954",
+        "building": "yes",
+        "historic": "castle",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1466285,
+          46.0813598
+        ]
+      },
+      "id": "way/665367954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/685799074",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Palatul Ruginoasa",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.845753,
+          47.2437065
+        ]
+      },
+      "id": "way/685799074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/688871052",
+        "building": "yes",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Conacul Mocioni din Foeni",
+        "start_date": "1750",
+        "wikidata": "Q61082703",
+        "wikipedia": "ro:Conacul familiei Mocioni",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8704881,
+          45.4998231
+        ]
+      },
+      "id": "way/688871052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/702693149",
+        "addr:city": "Nădășelu",
+        "addr:country": "RO",
+        "addr:housenumber": "62",
+        "addr:postcode": "407297",
+        "addr:street": "Strada Principală",
+        "building": "castle",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Conacul Lészai",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.4129229,
+          46.8280683
+        ]
+      },
+      "id": "way/702693149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/704112158",
+        "addr:city": "Mamaia",
+        "addr:street": "Aleea Falezei",
+        "architect": "Mario Stoppa",
+        "building": "yes",
+        "building:levels": "2",
+        "castle_type": "stately",
+        "description": "Vila Reginei Maria a României, cunoscută drept „Palatul Regal din Mamaia” sau „Castelul Reginei Maria din Mamaia”",
+        "disused:amenity": "restaurant",
+        "historic": "castle",
+        "mapillary": "4222971847741989",
+        "name": "Vila regală din Mamaia",
+        "old_name": "Restaurant Castel",
+        "ref:RO:lmi": "CT-II-m-A-02896",
+        "start_date": "1926",
+        "wikidata": "Q20429567",
+        "wikimedia_commons": "File:Vila Regală Mamaia 9.jpg",
+        "wikipedia": "ro:Vila regală din Mamaia",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.623377,
+          44.2382908
+        ]
+      },
+      "id": "way/704112158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/713618129",
+        "access": "permissive",
+        "building": "yes",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Castelul Béldi László",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8048332,
+          45.6717838
+        ]
+      },
+      "id": "way/713618129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/726608634",
+        "addr:street": "Strada Avram Iancu",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "Cetatea medievală",
+        "name:hu": "Marosvásárhelyi vár",
+        "name:ro": "Cetatea medievală",
+        "name:tr": "Ortaçağ kalesi",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5667102,
+          46.5472097
+        ]
+      },
+      "id": "node/726608634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/745399147",
+        "building": "yes",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "Cetatea Jdioara",
+        "name:hu": "Zsidóvár",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1181478,
+          45.6283222
+        ]
+      },
+      "id": "way/745399147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/793414853",
+        "building": "residential",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Castelul Mariaffi",
+        "name:hu": "Máriaffi-kastély",
+        "wikipedia": "hu:Máriaffi-kastély (Marosszentgyörgy)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.60179,
+          46.5767957
+        ]
+      },
+      "id": "way/793414853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/793420026",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Castelul Daniel",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5626669,
+          46.1196882
+        ]
+      },
+      "id": "way/793420026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/793430081",
+        "building": "residential",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Castelul Bánffy în Răscruci",
+        "name:hu": "Válaszúti Bánffy Kastély",
+        "name:ro": "Castelul Bánffy în Răscruci",
+        "wikidata": "Q2967849",
+        "wikipedia": "ro:Castelul Bánffy din Răscruci",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7742684,
+          46.9064401
+        ]
+      },
+      "id": "way/793430081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/793431980",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Castelul Kemeny-Banffy",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.9518926,
+          46.4735174
+        ]
+      },
+      "id": "way/793431980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/839329493",
+        "building": "yes",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "Palatul Gheorghe Pleșa",
+        "start_date": "1892",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9807831,
+          44.1728503
+        ]
+      },
+      "id": "way/839329493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/861299770",
+        "access": "private",
+        "building": "yes",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Castelul Apor",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3818152,
+          46.3571628
+        ]
+      },
+      "id": "way/861299770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/944208201",
+        "addr:postcode": "525104",
+        "addr:street": "DJ131",
+        "building": "yes",
+        "castle_type": "maison",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Castelul Kálnoky",
+        "name:en": "Kálnoky Castle",
+        "name:hu": "Kálnoky Kastély",
+        "opening_hours": "Fr-We 11:00-17:00",
+        "phone": "0743 221 101",
+        "website": "https://muzeulvietiitransilvanene.ro/web/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5821539,
+          46.0103633
+        ]
+      },
+      "id": "way/944208201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/977089097",
+        "barrier": "wall",
+        "historic": "ruins",
+        "historic:civilization": "medieval",
+        "name": "Cetatea Bologa",
+        "name:hu": "Sebesvár",
+        "ruins": "castle",
+        "tourism": "attraction",
+        "wikidata": "Q12723861",
+        "wikipedia": "ro:Cetatea Bologa",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8781203,
+          46.8804655
+        ]
+      },
+      "id": "way/977089097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/977351959",
+        "addr:city": "București",
+        "addr:housenumber": "1",
+        "addr:street": "Aleea Modrogan",
+        "architect": "Roger Bolomey",
+        "building": "yes",
+        "building:levels": "2",
+        "building:levels:underground": "1",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Vila Filipescu-Brâncoveanu",
+        "roof:levels": "1",
+        "roof:shape": "hipped",
+        "start_date": "1915",
+        "wikidata": "Q42768002",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0868867,
+          44.4569123
+        ]
+      },
+      "id": "way/977351959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1010150816",
+        "building": "yes",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Castelul Béldy din Jibou",
+        "name:hu": "Zsibói Béldy kastély",
+        "name:ro": "Castelul Béldy din Jibou",
+        "start_date": "1903",
+        "wikidata": "Q12723622",
+        "wikipedia": "ro:Castelul Béldy din Jibou",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.2394282,
+          47.287988
+        ]
+      },
+      "id": "way/1010150816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1034286345",
+        "historic": "castle",
+        "landuse": "meadow",
+        "name": "Cetatea Giurgiului",
+        "ruins": "yes",
+        "supervised": "yes",
+        "website": "https://www.travellerinromania.com/itinerary/cetatea-lui-mircea-cel-batran-municipiul-giurgiu/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9614666,
+          43.8837671
+        ]
+      },
+      "id": "way/1034286345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1039050649",
+        "building": "yes",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Castelul Bánffy",
+        "name:hu": "Bánffy kastély",
+        "name:ro": "Castelul Bánffy",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.705333,
+          47.198492
+        ]
+      },
+      "id": "way/1039050649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1064464009",
+        "building": "yes",
+        "castle_type": "mansion",
+        "historic": "castle",
+        "name": "Conacul Apor",
+        "name:en": "Mansion Apor",
+        "name:hu": "Apor-kúria",
+        "name:ro": "Conacul Apor",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.060482,
+          46.0297535
+        ]
+      },
+      "id": "way/1064464009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1080558209",
+        "abandoned": "yes",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "conacul din Herendești",
+        "name:hu": "Piacsek-kúria",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8562934,
+          45.650027
+        ]
+      },
+      "id": "way/1080558209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1092388206",
+        "building": "yes",
+        "height": "10",
+        "historic": "castle",
+        "name": "Castelul Apafi",
+        "name:en": "Apafi Castle",
+        "roof:height": "3",
+        "roof:material": "roof_tiles",
+        "roof:shape": "hipped",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.65231,
+          45.9348338
+        ]
+      },
+      "id": "way/1092388206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1098546281",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Castelul Brukenthal",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8153464,
+          45.8087967
+        ]
+      },
+      "id": "way/1098546281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1098546282",
+        "building": "yes",
+        "historic": "castle",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8155716,
+          45.8087466
+        ]
+      },
+      "id": "way/1098546282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1098546283",
+        "building": "yes",
+        "historic": "castle",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8151085,
+          45.808851
+        ]
+      },
+      "id": "way/1098546283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1102659211",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Castelul Bernáth-Bujanovics",
+        "name:hu": "Bernáth-Bujanovics kastély",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1419562,
+          47.512507
+        ]
+      },
+      "id": "way/1102659211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1105285288",
+        "barrier": "wall",
+        "historic": "ruins",
+        "historic:civilization": "medieval",
+        "name": "Cetatea Bologa",
+        "name:hu": "Sebesvár",
+        "ruins": "castle",
+        "tourism": "attraction",
+        "wikidata": "Q12723861",
+        "wikipedia": "ro:Cetatea Bologa",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8781002,
+          46.8802533
+        ]
+      },
+      "id": "way/1105285288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1105285289",
+        "barrier": "wall",
+        "historic": "ruins",
+        "historic:civilization": "medieval",
+        "name": "Cetatea Bologa",
+        "name:hu": "Sebesvár",
+        "ruins": "castle",
+        "tourism": "attraction",
+        "wikidata": "Q12723861",
+        "wikipedia": "ro:Cetatea Bologa",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8778898,
+          46.8802735
+        ]
+      },
+      "id": "way/1105285289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1119685357",
+        "building": "yes",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Conacul Ghica",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7243956,
+          44.6387688
+        ]
+      },
+      "id": "way/1119685357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1175897527",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Castelul Kemény",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.791371,
+          46.8606273
+        ]
+      },
+      "id": "way/1175897527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221534845",
+        "barrier": "city_wall",
+        "building": "yes",
+        "castle_type": "defensive",
+        "end_date": "110",
+        "historic": "castle",
+        "historic:civilization": "dacian",
+        "material": "stone",
+        "ruins": "yes",
+        "start_date": "~100 BC",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.22275,
+          45.8280014
+        ]
+      },
+      "id": "way/1221534845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221534846",
+        "barrier": "city_wall",
+        "building": "yes",
+        "castle_type": "defensive",
+        "end_date": "110",
+        "historic": "castle",
+        "historic:civilization": "dacian",
+        "material": "stone",
+        "ruins": "yes",
+        "start_date": "~100 BC",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2229789,
+          45.8269947
+        ]
+      },
+      "id": "way/1221534846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221534847",
+        "barrier": "city_wall",
+        "building": "yes",
+        "castle_type": "defensive",
+        "end_date": "110",
+        "historic": "castle",
+        "historic:civilization": "dacian",
+        "material": "stone",
+        "ruins": "yes",
+        "start_date": "~100 BC",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2216543,
+          45.8270721
+        ]
+      },
+      "id": "way/1221534847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1260637647",
+        "building": "yes",
+        "building:architecture": "baroque",
+        "building:levels": "1",
+        "building:material": "brick",
+        "castle_type": "manor",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Conacul Béldi-Mikes",
+        "name:hu": "Béldi-Mikes kastély",
+        "roof:shape": "hipped",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8457548,
+          45.7981206
+        ]
+      },
+      "id": "way/1260637647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1260641655",
+        "building": "house",
+        "building:architecture": "baroque",
+        "building:levels": "1",
+        "building:material": "brick",
+        "castle_type": "manor",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Conacul Temesváry",
+        "name:hu": "Temesváry kastély",
+        "roof:shape": "hipped",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8459475,
+          45.7956084
+        ]
+      },
+      "id": "way/1260641655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1260641689",
+        "building": "house",
+        "building:architecture": "baroque",
+        "building:levels": "1",
+        "building:material": "brick",
+        "castle_type": "manor",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Conacul „Ujvárossy-Ágoston”",
+        "name:hu": "Ujvárossy-Ágoston-kúria",
+        "roof:shape": "hipped",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8482607,
+          45.7939908
+        ]
+      },
+      "id": "way/1260641689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1260651643",
+        "building": "house",
+        "building:architecture": "baroque",
+        "building:levels": "1",
+        "building:material": "brick",
+        "castle_type": "manor",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Conacul Gidófalvy",
+        "name:hu": "Gidófalvy-kúria",
+        "roof:shape": "hipped",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8411868,
+          45.7940819
+        ]
+      },
+      "id": "way/1260651643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1273073460",
+        "building": "yes",
+        "castle_type": "stately",
+        "historic": "castle",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6630059,
+          46.9972492
+        ]
+      },
+      "id": "way/1273073460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1301323477",
+        "building": "yes",
+        "castle_type": "manor",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Nemes-kastély",
+        "source": "microsoft/BuildingFootprints",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5852193,
+          45.837468
+        ]
+      },
+      "id": "way/1301323477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1301326686",
+        "building": "yes",
+        "building:levels": "1",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name:hu": "Mikó-Boér udvarház",
+        "source": "microsoft/BuildingFootprints",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5957105,
+          45.836933
+        ]
+      },
+      "id": "way/1301326686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1306141035",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "Cetatea Aradului",
+        "name:de": "Festung Arad",
+        "name:en": "Fortress of Arad",
+        "name:es": "Fortaleza de Arad",
+        "name:hu": "Aradi vár",
+        "wikidata": "Q914303",
+        "wikipedia": "ro:Cetatea Aradului",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3324933,
+          46.1708865
+        ]
+      },
+      "id": "way/1306141035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1327914056",
+        "SIRUTA:code": "86829",
+        "addr:city": "Hunedoara",
+        "addr:housenumber": "1-3",
+        "addr:postcode": "331141",
+        "addr:street": "Strada Castelului",
+        "alt_name:ca": "Castell de Corvinilor",
+        "alt_name:de": "Schloss Eisenmarkt",
+        "alt_name:en": "Hunedoara Castle",
+        "alt_name:es": "Castillo de Corvin",
+        "castle_type": "defensive",
+        "codul_entității_muzeale": "7042500.0",
+        "description:ro": "Muzeul infiintat in anul 1974 ca filiala a muzeului judetean Deva, iar din 1990 devine unitate separata. Muzeul a fost condus in aceasta perioada de catre: Prof. Cornel Rusu, Dr. Ioachim Lazar, Prof. Tiberiu Maris, Prof. Elena Butnariu si Prof. Nicolae C",
+        "email": "contact@castelulcorvinilor.ro",
+        "fax": "0254/711.423",
+        "fee": "yes",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Castelul Corvinilor",
+        "name:ca": "Castell de Hunyad",
+        "name:de": "Burg Eisenmarkt",
+        "name:en": "Corvin Castle",
+        "name:es": "Castillo de Hunyad",
+        "name:hu": "Vajdahunyadi vár",
+        "name:it": "Castello dei Corvino",
+        "name:pt": "Castelo de Corvin",
+        "name:uk": "Замок Корвінів",
+        "opening_hours": "Mo 12:00-20:00; Tu-Su 9:00-20:00",
+        "phone": "+40 786048718",
+        "ref:RO:lmi": "HD-II-m-A-03344",
+        "source": "INP",
+        "source:link": "http://date.gov.ro/dataset/ghidul-muzeelor-din-romania",
+        "tourism": "attraction",
+        "tourism_survey": "27.08.2013 12:01:39",
+        "website": "http://www.castelulcorvinilor.ro/",
+        "wheelchair": "no",
+        "wikidata": "Q126576",
+        "wikipedia": "ro:Castelul_Corvinilor",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.888204,
+          45.7491873
+        ]
+      },
+      "id": "way/1327914056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1328645254",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Castelul Bethlen",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.354095,
+          47.0854565
+        ]
+      },
+      "id": "way/1328645254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1328645958",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Castelul Lázár",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4379757,
+          47.0769973
+        ]
+      },
+      "id": "way/1328645958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1348374013",
+        "building": "public",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Teleki-kastély",
+        "start_date": "before 1821",
+        "wikidata": "Q1115788",
+        "wikipedia": "hu:Teleki-kastély (Koltó)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5228674,
+          47.6003546
+        ]
+      },
+      "id": "way/1348374013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1366329055",
+        "castle_type": "defensive",
+        "ele": "470",
+        "historic": "castle",
+        "name": "Cetatea Șiria",
+        "opening_hours": "24/7",
+        "ruins": "yes",
+        "tourism": "attraction",
+        "wheelchair": "no",
+        "wikidata": "Q18538889",
+        "wikipedia": "ro:Cetatea Șiriei"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6570686,
+          46.2667161
+        ]
+      },
+      "id": "node/1366329055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1366689705",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Prințesele lui Tata",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0862753,
+          44.4492515
+        ]
+      },
+      "id": "way/1366689705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1377280853",
+        "access": "no",
+        "building": "yes",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "Castelul Vecsey",
+        "start_date": "1760",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1252305,
+          47.8620347
+        ]
+      },
+      "id": "way/1377280853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1382801718",
+        "building": "yes",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Castelul Tholdy-Ujfalussy",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3078056,
+          47.7047435
+        ]
+      },
+      "id": "way/1382801718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1431646399",
+        "building": "yes",
+        "historic": "castle",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.658242,
+          46.7358353
+        ]
+      },
+      "id": "way/1431646399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1435675595",
+        "building": "yes",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "name": "Cetatea Dobromir",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7811622,
+          44.0184882
+        ]
+      },
+      "id": "way/1435675595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1435676141",
+        "building": "yes",
+        "historic": "castle",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7834952,
+          44.0171808
+        ]
+      },
+      "id": "way/1435676141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1443930764",
+        "access": "private",
+        "addr:city": "Sinaia",
+        "building": "castle",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Castelul Foișor",
+        "wikidata": "Q18538722",
+        "wikipedia": "ro:Castelul Foișor",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5362048,
+          45.3613356
+        ]
+      },
+      "id": "way/1443930764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1454368027",
+        "access": "yes",
+        "building": "yes",
+        "castle_type": "palace",
+        "historic": "castle",
+        "image": "https://photos.app.goo.gl/sb6SPn8CBSTnoi7o6",
+        "name": "Castelul Peleș",
+        "start_date": "1873",
+        "website": "https://peles.ro/ro/despre/istoricul-castelului-peles/",
+        "wikidata": "Q917702",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5428805,
+          45.3600868
+        ]
+      },
+      "id": "way/1454368027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1456390102",
+        "architect": "Petre Antonescu",
+        "architect:wikipedia": "ro:Petre Antonescu",
+        "building": "yes",
+        "building:architecture": "neoromânesc",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "Palatul Băncii Marmorosch Blank",
+        "name:ro": "Palatul Băncii Marmorosch Blank",
+        "start_date": "1923",
+        "tourism": "attraction",
+        "wikidata": "Q12737402",
+        "wikipedia": "ro:Palatul Băncii Marmorosch Blank",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0989146,
+          44.4336344
+        ]
+      },
+      "id": "way/1456390102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1473257051",
+        "addr:city": "București",
+        "addr:housenumber": "10",
+        "addr:street": "Bulevardul Ion Constantin Brătianu",
+        "architect": "Paul Smărăndescu",
+        "building": "apartments",
+        "building:levels": "6",
+        "castle_type": "palace",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "name": "Palatul Societății Creditul Rural",
+        "note": "Această clădire apare uneori ca având adresa Doamnei nr. 24, iar alteori Bulevardul Brătianu nr. 10. Pare că a doua variantă este cea corectă.",
+        "ref:RO:lmi": "B-II-m-B-18222",
+        "start_date": "1926",
+        "website": "http://paul-smarandescu.blogspot.com/2014/09/42-palatul-societatea-creditul-rural.html",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1028234,
+          44.4334038
+        ]
+      },
+      "id": "way/1473257051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1721570468",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Castelul Bethlen",
+        "name:en": "Bethlen Mansion",
+        "name:hu": "Bethlen-kastély",
+        "wikipedia": "ro:Castelul Bethlen din Criș"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6926589,
+          46.1430456
+        ]
+      },
+      "id": "node/1721570468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1778285545",
+        "historic": "castle",
+        "name": "Conacul Toma Cantacuzino - sec XVII"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.66693,
+          45.1809759
+        ]
+      },
+      "id": "node/1778285545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1857176408",
+        "access": "yes",
+        "castle_type": "castle",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Cetatea Bálványos",
+        "name:hu": "Bálványosvár",
+        "name:ro": "Cetatea Bálványos",
+        "ruins": "yes",
+        "tourism": "attraction",
+        "wikidata": "Q852875",
+        "wikipedia": "hu:Bálványosvár"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9652345,
+          46.1138797
+        ]
+      },
+      "id": "node/1857176408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1955628927",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "name": "Cetatea Ardud - Karoly",
+        "tourism": "attraction",
+        "wikidata": "Q18547579",
+        "wikipedia": "ro:Ruinele cetății Károlyi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8879984,
+          47.6539268
+        ]
+      },
+      "id": "node/1955628927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2056076184",
+        "access": "yes",
+        "historic": "castle",
+        "name": "Castelul Bánffy",
+        "name:en": "Bánffy Castle",
+        "name:hu": "Bánffy-kastély",
+        "name:ro": "Castelul Bánffy",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8103208,
+          46.9102532
+        ]
+      },
+      "id": "node/2056076184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2260504457",
+        "historic": "castle",
+        "name": "Castelul Kemény"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6212356,
+          46.1815726
+        ]
+      },
+      "id": "node/2260504457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2420646960",
+        "historic": "castle",
+        "name": "Castelul Turnu Roșu",
+        "name:hu": "Vöröstorony-vár"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2607923,
+          45.6274908
+        ]
+      },
+      "id": "node/2420646960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2634652302",
+        "SIRUTA:code": "86696",
+        "addr:city": "Deva",
+        "addr:street": "Dealul Cetății",
+        "alt_name": "Cetatea Deva",
+        "castle_type": "fortress",
+        "codul_entității_muzeale": "6942502.0",
+        "description:en": "It was attested in documents in 1269, and played an important role in the military and political life of mediaeval Transylvania. Its fortifications which stretch down to the base of the hill have been remade, reinforced and amplified over the centuries.",
+        "description:ro": "Atestata documentar in 1269, cetatea a jucat un rol important in viata militara si politica a Transilvaniei medievale. Fortificatiile cetatii se intind pana la baza dealului, refacute, intarite si amplificate mereu de-a lungul secolelor.",
+        "fee": "no",
+        "heritage": "2",
+        "heritage:operator": "lmi",
+        "historic": "castle",
+        "museum_type": "Site Museum",
+        "name": "Cetatea Devei",
+        "name:en": "Deva Fortress",
+        "name:ru": "Замок Дева",
+        "note": "See also http://www.hunedoara.djc.ro/ObiectiveDetalii.aspx?ID=426",
+        "opening_hours": "8:00-20:00",
+        "phone": "+40 31 417 85 22",
+        "ref:RO:lmi": "HD-II-a-A-03216",
+        "source": "INP",
+        "source:link": "http://date.gov.ro/dataset/ghidul-muzeelor-din-romania",
+        "tourism": "museum",
+        "tourism_survey": "07.12.2011 14:18:43",
+        "website": "https://cetateadeva.ro/",
+        "wikidata": "Q956332",
+        "wikipedia": "en:Fortress of Deva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.897455,
+          45.8887428
+        ]
+      },
+      "id": "node/2634652302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2634652911",
+        "SIRUTA:code": "104555",
+        "access": "private",
+        "addr:city": "Periș",
+        "addr:postcode": "077150",
+        "castle_type": "palace",
+        "codul_entității_muzeale": "9000032.0",
+        "historic": "castle",
+        "name": "Palatul Scroviștea",
+        "name:en": "Scrovistea Palace",
+        "source": "INP",
+        "source:link": "http://date.gov.ro/dataset/ghidul-muzeelor-din-romania",
+        "tourism_survey": "11.06.2012 14:12:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0508756,
+          44.7216429
+        ]
+      },
+      "id": "node/2634652911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755513174",
+        "addr:city": "Sighișoara",
+        "addr:street": "Piața Muzeului",
+        "alt_name": "Centrul istoric Sighișoara",
+        "castle_type": "citadel",
+        "heritage": "2",
+        "historic": "castle",
+        "name": "Cetatea Sighișoara",
+        "name:de": "Zitadelle Schäßburg",
+        "name:en": "Sighișoara Citadel",
+        "tourism": "attraction",
+        "wheelchair": "yes",
+        "wikidata": "Q1075681"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7924693,
+          46.2198566
+        ]
+      },
+      "id": "node/2755513174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2989556483",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Cetatea Colț",
+        "name:en": "Colț Citadel",
+        "name:hu": "Kolcvár",
+        "ruins": "yes",
+        "source": "claudiu vieru",
+        "tourism": "attraction",
+        "wikidata": "Q371145",
+        "wikipedia": "ro:Cetatea Colț"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8743675,
+          45.4781404
+        ]
+      },
+      "id": "node/2989556483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3153826946",
+        "historic": "castle",
+        "name": "Castelul Pocol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5113745,
+          47.6811216
+        ]
+      },
+      "id": "node/3153826946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3202498662",
+        "access": "yes",
+        "historic": "ruins",
+        "historic:civilization": "medieval",
+        "name": "Cetatea Medievală Turnu",
+        "ruins": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8615918,
+          43.7189646
+        ]
+      },
+      "id": "node/3202498662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3353498810",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Cetatea Grădețului",
+        "ruins": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6271405,
+          44.7567791
+        ]
+      },
+      "id": "node/3353498810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3555908053",
+        "access": "no",
+        "historic": "castle",
+        "name": "Castelul Apafi",
+        "name:hu": "Apafi kastély"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0265121,
+          47.8780182
+        ]
+      },
+      "id": "node/3555908053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3594846726",
+        "access": "yes",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "Cetatea Báthory",
+        "ruins": "yes",
+        "start_date": "1592",
+        "wikidata": "Q8083865",
+        "wikipedia": "en:Șimleu Silvaniei Fort"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7992456,
+          47.2307914
+        ]
+      },
+      "id": "node/3594846726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3650517928",
+        "historic": "castle",
+        "name": "Șoimoș",
+        "name:hu": "Solymos",
+        "name:ro": "Șoimoș",
+        "ruins": "yes",
+        "wikidata": "Q397035",
+        "wikipedia": "hu:Solymosvár"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7231977,
+          46.108802
+        ]
+      },
+      "id": "node/3650517928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3686469092",
+        "historic": "castle",
+        "name": "Vécsey kastély"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1252018,
+          47.862235
+        ]
+      },
+      "id": "node/3686469092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3696002284",
+        "historic": "castle",
+        "name": "Sükösd-Bethlen",
+        "tourism": "attraction",
+        "wikidata": "Q20430181",
+        "wikipedia": "ro:Castelul Sükösd-Bethlen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4083411,
+          46.0235798
+        ]
+      },
+      "id": "node/3696002284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3737064958",
+        "addr:city": "Bulci",
+        "historic": "castle",
+        "name": "Castelul Mocioni",
+        "note": "Castelul impresionează prin dimensiune și eleganță, întregul domeniu fiind constituit din mai multe locuințe. Închis turiștilor.",
+        "start_date": "1858"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1057336,
+          46.0065084
+        ]
+      },
+      "id": "node/3737064958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4334131622",
+        "historic": "castle",
+        "name": "Nashpa's Crib"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6554889,
+          47.0674033
+        ]
+      },
+      "id": "node/4334131622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4335801090",
+        "historic": "castle",
+        "name": "Biertan",
+        "opening_hours": "Tu-Su 11:00-15:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5211996,
+          46.1354066
+        ]
+      },
+      "id": "node/4335801090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4679534999",
+        "historic": "castle",
+        "name": "Castelul Filipescu",
+        "name:ro": "Castelul Filipescu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0492337,
+          45.221708
+        ]
+      },
+      "id": "node/4679534999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4792032540",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "Sólyom vára"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1106173,
+          46.6540959
+        ]
+      },
+      "id": "node/4792032540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4792035654",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "Cetatea Finiş",
+        "name:hu": "Béla vár"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2968982,
+          46.6168289
+        ]
+      },
+      "id": "node/4792035654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4871891963",
+        "alt_name": "Castelul Brâncoveanu din Sâmbăta de Sus",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Conacul Brâncoveanu",
+        "ref:RO:lmi": "BV-II-a-A-11815",
+        "website": "https://curti-brancovenesti.patrimoniu.ro/date-istorice/palatul-de-la-sambata-de-sus",
+        "wikidata": "Q21819333",
+        "wikipedia": "ro:Castelul Brâncoveanu din Sâmbăta de Sus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8179865,
+          45.765076
+        ]
+      },
+      "id": "node/4871891963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4932057219",
+        "castle_type": "reconstruction",
+        "historic": "castle",
+        "name": "Castelul Corneni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7349961,
+          47.0734606
+        ]
+      },
+      "id": "node/4932057219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5261072577",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "name": "Cetatea Firtos",
+        "name:hu": "Firtos vára",
+        "ruins": "yes",
+        "wikidata": "Q1001656",
+        "wikipedia": "hu:Firtos vár"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1438802,
+          46.449922
+        ]
+      },
+      "id": "node/5261072577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5293964692",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Castelul Josika"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7713232,
+          45.9150546
+        ]
+      },
+      "id": "node/5293964692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5299069767",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Castelul Bonyha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4836881,
+          46.3785872
+        ]
+      },
+      "id": "node/5299069767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5299069773",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Castelul Mikefalva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4116903,
+          46.367676
+        ]
+      },
+      "id": "node/5299069773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5299069788",
+        "access": "private",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Castelul Apor",
+        "name:hu": "Apor-kastél"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3818107,
+          46.3571617
+        ]
+      },
+      "id": "node/5299069788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5299078331",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Castelul Szőkefalva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3289547,
+          46.3315289
+        ]
+      },
+      "id": "node/5299078331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5299103958",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Castelul Sövényfalva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2118002,
+          46.2929211
+        ]
+      },
+      "id": "node/5299103958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5299121588",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Castelul Szentmiklós"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0630622,
+          46.2439246
+        ]
+      },
+      "id": "node/5299121588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5330520631",
+        "castle_type": "mansion",
+        "historic": "castle",
+        "name": "Conacul Mezőtóhát"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0855973,
+          46.5795839
+        ]
+      },
+      "id": "node/5330520631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5344803820",
+        "castle_type": "mansion",
+        "historic": "castle",
+        "name": "Castelul Rode"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6176191,
+          46.350982
+        ]
+      },
+      "id": "node/5344803820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5491056761",
+        "historic": "castle",
+        "historic:civilization": "ottoman",
+        "name": "Conacul Borza (1870)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9961812,
+          46.1060078
+        ]
+      },
+      "id": "node/5491056761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6807530047",
+        "access": "customers",
+        "historic": "castle",
+        "name": "Conacul Apafi",
+        "name:hu": "Apafi-kúria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6466438,
+          46.1092631
+        ]
+      },
+      "id": "node/6807530047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6807596471",
+        "access": "private",
+        "historic": "castle",
+        "name:hu": "Babós-Forró kúria",
+        "name:ro": "Conacul Babós-Forró"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.932786,
+          45.8850322
+        ]
+      },
+      "id": "node/6807596471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6807893633",
+        "historic": "castle",
+        "name": "Castelul Bálintitt",
+        "name:hu": "Bálintitt kastély"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.643259,
+          46.6055119
+        ]
+      },
+      "id": "node/6807893633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6808038210",
+        "access": "no",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Castelul Bánffy",
+        "name:hu": "Bánffy-kastély"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.65775,
+          46.9334049
+        ]
+      },
+      "id": "node/6808038210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7090484113",
+        "access": "yes",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Cetatea Pinticu",
+        "name:hu": "Szászpénteki vár",
+        "ruins": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5557546,
+          46.9549392
+        ]
+      },
+      "id": "node/7090484113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7096451957",
+        "access": "yes",
+        "castle_type": "medieval",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Cetatea Ardani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.672206,
+          47.0321957
+        ]
+      },
+      "id": "node/7096451957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8332289820",
+        "access": "yes",
+        "historic": "ruins",
+        "historic:civilization": "medieval",
+        "name": "Cetatea Sibielului (Cetatea Salgo)",
+        "ruins": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8857158,
+          45.7486177
+        ]
+      },
+      "id": "node/8332289820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8356172023",
+        "description": "Construită la 1370, cetatea este situată la sudul localității, pe un deal ce domină trecerea spre defileul Oltului. A făcut parte din sistemul de apărare a sud-estului Transilvaniei.",
+        "historic": "ruins",
+        "historic:civilization": "medieval",
+        "name": "Cetatea Tălmaciu",
+        "ruins": "castle",
+        "wikipedia": "ro:Tălmaciu#Cetatea Tălmaciu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.271977,
+          45.6530784
+        ]
+      },
+      "id": "node/8356172023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8597793728",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Castelul Bánffy",
+        "name:hu": "Bánffy kastély",
+        "name:ro": "Castelul Bánffy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7053148,
+          47.1984926
+        ]
+      },
+      "id": "node/8597793728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8640942073",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "Cetatea Drencova"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9751649,
+          44.6354426
+        ]
+      },
+      "id": "node/8640942073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8738441104",
+        "access": "yes",
+        "description": "Buridava was a fortified Dacian settlement dating from 2nd century BC.",
+        "historic": "ruins",
+        "historic:civilization": "iron-age",
+        "name": "Buridava",
+        "ruins": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2877291,
+          45.0793273
+        ]
+      },
+      "id": "node/8738441104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9045696453",
+        "ele": "440",
+        "historic": "ruins",
+        "name": "Cetatea Almașului",
+        "name:hu": "Almási vár (Dezsővár);Almásvár",
+        "ruins": "castle",
+        "source": "https://civilterkep.ro/varalmas/",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1472955,
+          46.9361126
+        ]
+      },
+      "id": "node/9045696453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9320286458",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Castelul Béldy din Jibou",
+        "name:hu": "Zsibói Béldy kastély",
+        "name:ro": "Castelul Béldy din Jibou",
+        "start_date": "1903",
+        "wikidata": "Q12723622",
+        "wikipedia": "ro:Castelul Béldy din Jibou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.2394076,
+          47.2880015
+        ]
+      },
+      "id": "node/9320286458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9320380935",
+        "access": "yes",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Ansamblul castelului Wesselényi din Jibou",
+        "name:hu": "Zsibói Wesselényi kastély épületegyüttes",
+        "name:ro": "Ansamblul castelului Wesselényi din Jibou",
+        "wikidata": "Q18537444",
+        "wikipedia": "ro:Ansamblul castelului Wesselényi din Jibou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.2535304,
+          47.2631072
+        ]
+      },
+      "id": "node/9320380935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10058549823",
+        "historic": "castle",
+        "name": "Castelul Brukenthal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8155702,
+          45.8092898
+        ]
+      },
+      "id": "node/10058549823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10166254909",
+        "historic": "ruins",
+        "historic:civilization": "medieval",
+        "name": "Harom Vára",
+        "ruins": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7853436,
+          46.316876
+        ]
+      },
+      "id": "node/10166254909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11064499238",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "Curtea Boiereasca Potlogeni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6194219,
+          43.8855378
+        ]
+      },
+      "id": "node/11064499238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12288764965",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "Cetatea Husarilor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8882635,
+          45.7503764
+        ]
+      },
+      "id": "node/12288764965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12698960902",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3389529,
+          46.670452
+        ]
+      },
+      "id": "node/12698960902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12900473703",
+        "historic": "castle",
+        "name:hu": "egykori Lipthay-kastély"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7720286,
+          45.9683442
+        ]
+      },
+      "id": "node/12900473703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13418993308",
+        "historic": "castle",
+        "name": "Ugron Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0123769,
+          46.2693655
+        ]
+      },
+      "id": "node/13418993308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13458712636",
+        "castle_type": "fortress",
+        "historic": "ruins",
+        "name": "Cetatea din Seini",
+        "name:hu": "Szinyér vára",
+        "ruins": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3119073,
+          47.7609212
+        ]
+      },
+      "id": "node/13458712636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13546321154",
+        "historic": "castle",
+        "name": "Melik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.6642713,
+          47.81177
+        ]
+      },
+      "id": "node/13546321154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13547191885",
+        "historic": "ruins",
+        "name": "Cetatea Tăuți",
+        "ruins": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.4460706,
+          46.0820713
+        ]
+      },
+      "id": "node/13547191885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13556307797",
+        "historic": "ruins",
+        "ruins": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6854759,
+          46.2858446
+        ]
+      },
+      "id": "node/13556307797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13717038927",
+        "historic": "ruins",
+        "name:hu": "Alsó-Sólyomkő vára",
+        "ruins": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8477563,
+          46.1136472
+        ]
+      },
+      "id": "node/13717038927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13785248911",
+        "historic": "ruins",
+        "name": "Cetatea Piatra Șoimului",
+        "ruins": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3850393,
+          47.1106021
+        ]
+      },
+      "id": "node/13785248911"
+    }
+  ]
+}
